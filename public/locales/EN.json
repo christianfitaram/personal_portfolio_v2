@@ -96,7 +96,7 @@
         },
         {
           "title": "Portfolio",
-          "description": "My personal portfolio is a static Ract and NextJS web application. It supports multilanguage a feature and smooth animations. Deployed in a Google Cloud VM",
+          "description": "My personal portfolio is a static Ract and NextJS web application. It supports multilanguage feature and smooth animations. Deployed in a Google Cloud VM",
           "repository": "https://github.com/christianfitaram/personal_portfolio_v2",
           "technologies":["React", "NextJs","TypeScript","Tailwind CSS","Google Cloud"],
           "link": ""
