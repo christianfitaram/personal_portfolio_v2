@@ -6,6 +6,10 @@
   "contactTitle": "Contacto",
   "skillsTitle": "Habilidades tècnicas",
   "contact":"Contacto",
+  "description_1":"Soluciones web y móviles con React, Next.js, Spring Boot y Kotlin.",
+  "description_2":"Con énfasis en tecnologías de datos para aplicaciones eficientes y escalables.",
+  "repository": "Repositorio",
+  "typewriter":"Hola, Soy Christian",
   "certification": [
     {
       "title": "C# Developer Path",
@@ -65,7 +69,7 @@
       "contractType": "FP",
       "periodTime": "feb. 2025 - ahora",
       "location": "Barcelona, Cataluña, España",
-      "description": "Trabajando en dos áreas clave dentro de la empresa: mejorando su sitio web e interfaz de usuario, y configurando máquinas virtuales para servicios de alojamiento que apoyan las operaciones comerciales.",
+      "description": "Actualmente trabajando en web UI, mejorando el sitio web e interfaz de usuario, además, configurando máquinas virtuales para servicios de alojamiento que apoyen las operaciones comerciales.",
       "technologies": ["React", "NextJS", "Google Cloud", "TypeScript"]
     },
     {
@@ -92,23 +96,23 @@
       "principal": [
         {
           "title": "Trending words",
-          "description": "Una herramienta de scraping web y procesamiento de lenguaje natural (NLP) que extrae y analiza palabras en tendencia de noticias en línea, filtrando nombres y ubicaciones. Proporciona información útil para el aprendizaje de idiomas y análisis cultural.",
-          "repository": "#home",
-          "technologies": ["Python", "Flask", "NLTK", "spaCy", "Pandas"],
+          "description": "Un pipeline de NLP modular diseñado para extraer, limpiar, clasificar, resumir, analizar, almacenar y predecir contenido lingüístico en tendencia utilizando sitios web de noticias como fuentes.",
+          "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
+          "technologies": ["Python", "Flask", "NLTK", "spaCy", "Pandas","NLP","Tensor Flow","Machine Learnig","Keras"],
           "link": ""
         },
         {
           "title": "The Pokemon APP",
-          "description": "Una aplicación web de una sola página que muestra una lista interactiva de Pokémon obtenidos de una API pública externa y permite ver los detalles individuales de cada Pokémon. Fue desarrollada con NextJS, React y TypeScript.",
+          "description": "Una aplicación web dinámica que permite a los usuarios buscar y explorar información detallada de Pokemones en tiempo real. Además, al implementar la API de OpenAI, es posible chatear con los pokemones o recibir ayuda para localizarlos. Deploy en Google Cloud VM.",
           "repository": "https://github.com/christianfitaram/the-pokemon-app",
-          "technologies": ["React", "NextJs"],
-          "link": "https://the-pokemon-app-two.vercel.app/"
+          "technologies": ["React", "NextJs","TypeScript","Tailwind CSS","Google Cloud", "OpenAI API"],
+          "link": "https://project1.enricfitaram.dev/"
         },
         {
-          "title": "Trivia game",
-          "description": "Un juego de trivia diseñado en Ruby para ejecutarse en la consola. Utiliza una API en línea para obtener preguntas y respuestas de trivia. Permite almacenar en memoria el nombre y la puntuación de un participante si así lo desea.",
-          "repository": "https://github.com/christianfitaram/clivia",
-          "technologies": ["Ruby"],
+          "title": "Portafolio",
+          "description": "Mi portafolio personal es una aplicación web estática, desarrollada en React y NextJS. Admite funciones multilingües y animaciones fluidas. Implementada en una máquina virtual de Google Cloud",
+          "repository": "https://github.com/christianfitaram/personal_portfolio_v2",
+          "technologies":["React", "NextJs","TypeScript","Tailwind CSS","Google Cloud"],
           "link": ""
         }
       ],

@@ -29,6 +29,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <LanguageProvider>{children}</LanguageProvider>
+        <footer>
+          <p>Made with ❤️ by me in Barcelona</p>
+          <p>There is no CopyRight. Do as you please.</p>
+        </footer>
       </body>
     </html>
   );

@@ -57,3 +57,15 @@ body {
 .bg-purple-gradient{
   background: rgb(25, 25, 25)
 }
+
+footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+footer p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: #b8b8b8;
+  letter-spacing: 0.4px;
+}

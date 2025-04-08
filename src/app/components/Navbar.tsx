@@ -21,10 +21,11 @@ export default function Navbar() {
         {/* Language Selector */}
         <div className="flex flex-row gap-3">
           {availableLanguages.map((lang) => (
-            <button key={lang.code} 
-            onClick={() => setLanguage(lang.code)
-            
-            }>
+            <button 
+            key={lang.code} 
+            onClick={() => setLanguage(lang.code)}
+            className="cursor-pointer"
+            >
               {lang.code}
             </button>
           ))}

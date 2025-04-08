@@ -1,11 +1,13 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function TypeWriter() {
+    const { translations } = useLanguage();
   
     const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Welcome, I'm Christian"];
+  const toRotate = [translations.typewriter || "Welcome, I'm Christian"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;

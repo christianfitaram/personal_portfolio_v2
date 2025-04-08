@@ -82,23 +82,23 @@
       "principal": [
         {
           "title": "Trending words",
-          "description": "A web scraping and natural language processing (NLP) tool that extracts and analyzes trending words from online news, filtering out names and locations. It provides insights for language learning and cultural analysis. ",
-          "repository": "#home",
-          "technologies": ["Python", "Flask", "NLTK", "spaCy", "Pandas"],
+          "description": "A modular NLP pipeline designed to scrape, clean, classify, summarize, analyze, store and predict trending linguistic content from real-world news sources.",
+          "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
+          "technologies": ["Python", "Flask", "NLTK", "spaCy", "Pandas","NLP","Tensor Flow","Machine Learnig","Keras"],
           "link": ""
         },
         {
           "title": "The Pokemon APP",
-          "description": "A modern web application built with Next.js, TypeScript, Tailwind CSS, and PokéAPI that allows users to search and explore detailed Pokémon information in real-time. Features include dynamic Pokémon detail pages, search with live filtering, and a chat feature that lets users 'talk' to their favorite Pokémon. Deployed on a Google Cloud VM with NGINX.",
+          "description":  "A dinamic web application that allows users to search and explore detailed Pokémon information in real-time. Implementing the OpenAI API, it is possible to chat with the Pokémon or get assistance to localize them. Deployed in Google Cloud VM",
           "repository": "https://github.com/christianfitaram/the-pokemon-app",
-          "technologies": ["React", "NextJs","TypeScript","Tailwind CSS","Google Cloud"],
+          "technologies": ["React", "NextJs","TypeScript","Tailwind CSS","Google Cloud", "OpenAI API"],
           "link": "https://project1.enricfitaram.dev/"
         },
         {
-          "title": "Trivia game",
-          "description": "A trivia game designed in Ruby to be run on the console. It was made using an online API to fetch the trivia questions and possible answers. It stores in memory the name and score of a participant if they want it to.",
-          "repository": "https://github.com/christianfitaram/clivia",
-          "technologies": ["Ruby"],
+          "title": "Portfolio",
+          "description": "My personal portfolio is a static Ract and NextJS web application. It supports multilanguage a feature and smooth animations. Deployed in a Google Cloud VM",
+          "repository": "https://github.com/christianfitaram/personal_portfolio_v2",
+          "technologies":["React", "NextJs","TypeScript","Tailwind CSS","Google Cloud"],
           "link": ""
         }
       ],
