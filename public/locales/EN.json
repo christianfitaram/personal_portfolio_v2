@@ -1,0 +1,108 @@
+{
+  "certification": [
+    {
+      "title": "C# Developer Path",
+      "issuer": "MongoDB",
+      "date": "2024-06-11",
+      "id": "MDBs334b1eoxu",
+      "link": "https://learn.mongodb.com/c/ZNlzvcCPT4qUCbzxJzYkzA",
+      "img": "https://www.svgrepo.com/show/331488/mongodb.svg"
+    },
+    {
+      "title": "Data Modeling Path",
+      "issuer": "MongoDB",
+      "date": "2024-06-11",
+      "id": "MDBy0i72vcmkp",
+      "link": "https://learn.mongodb.com/c/wwFMePmATf64iftNY1FoqA",
+      "img": "https://www.svgrepo.com/show/331488/mongodb.svg"
+    },
+    {
+      "title": "Azure Fundamentals",
+      "issuer": "Microsoft/Credly",
+      "date": "2024-07-11",
+      "id": "",
+      "link": "https://www.credly.com/badges/c14c74d9-eefe-4a79-93b9-118ccf813147/linked_in_profile",
+      "img": "https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+    }
+  ],
+
+  "education": [
+    {
+      "title": "Cross-platform application development",
+      "institution": "Institut Nicolau Copèrnic",
+      "location": "Terrassa, Cataluña, España",
+      "periodTime": "sep. 2023 - march. 2025 ",
+      "technologies": [
+        "Java",
+        "SpringBoot",
+        "Spring Security",
+        "PHP",
+        "Kotlin",
+        "Android Studio"
+      ]
+    },
+    {
+      "title": ".NET Framework & C#",
+      "location": "Barcelona, Cataluña, España",
+      "institution": "EnfocaT Bootcamp",
+      "periodTime": "may. 2024 - aug. 2024 ",
+      "technologies": ["C#", ".NET"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Developer",
+      "company": "GINDUMAC",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQFtD0f-TmipfA/company-logo_200_200/company-logo_200_200/0/1725882602482/gindumac_gmbh_logo?e=1750291200&v=beta&t=jRwo63CyuhhR-MKLHX_Obj9Z3ucTa3-KlRHvkRHocWY",
+      "contractType": "FP Dual",
+      "periodTime": "feb. 2025 - now ",
+      "location": "Barcelona, Cataluña, España",
+      "description": "Working on two key areas within the company: enhancing their website and user interface, and configuring virtual machines for hosting services to support business operations.",
+      "technologies": ["React", "NextJS", "Google Cloud", "TypeScript"]
+    },
+    {
+      "title": "Software Developer",
+      "company": "WITEKLAB",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQHbz0UIALCwXQ/company-logo_200_200/company-logo_200_200/0/1630577613549/witeklab_logo?e=1750291200&v=beta&t=VBnHNvYGfttjQNDIOePV-UatYsd76_hQ3x4uYi9AZ_M",
+      "contractType": "Internship (FCT)",
+      "periodTime": "oct. 2024 - jan. 2025",
+      "location": "Terrassa, Cataluña, España",
+      "description": "I was part of a team that developed a web application that collects, interprets, and displays real-time data from repeaters and access points while allowing device configuration and management.",
+      "technologies": ["Python", "FastAPI", "PHP", "Laravel", "Angular"]
+    }
+  ],
+  "navbar": [
+    { "text": "Home", "link": "#home" },
+    { "text": "Skills", "link": "#skills" },
+    { "text": "Education", "link": "#education" },
+    { "text": "Projects", "link": "#projects" }
+  ],
+  "projects": [
+    {
+      "principal": [
+        {
+          "title": "Trending words",
+          "description": "A web scraping and natural language processing (NLP) tool that extracts and analyzes trending words from online news, filtering out names and locations. It provides insights for language learning and cultural analysis. ",
+          "repository": "#home",
+          "technologies": ["Python", "Flask", "NLTK", "spaCy", "Pandas"],
+          "link": ""
+        },
+        {
+          "title": "The Pokemon APP",
+          "description": "A modern web application built with Next.js, TypeScript, Tailwind CSS, and PokéAPI that allows users to search and explore detailed Pokémon information in real-time. Features include dynamic Pokémon detail pages, search with live filtering, and a chat feature that lets users 'talk' to their favorite Pokémon. Deployed on a Google Cloud VM with NGINX.",
+          "repository": "https://github.com/christianfitaram/the-pokemon-app",
+          "technologies": ["React", "NextJs","TypeScript","Tailwind CSS","Google Cloud"],
+          "link": "https://project1.enricfitaram.dev/"
+        },
+        {
+          "title": "Trivia game",
+          "description": "A trivia game designed in Ruby to be run on the console. It was made using an online API to fetch the trivia questions and possible answers. It stores in memory the name and score of a participant if they want it to.",
+          "repository": "https://github.com/christianfitaram/clivia",
+          "technologies": ["Ruby"],
+          "link": ""
+        }
+      ],
+      "projects": []
+    }
+  ]
+}

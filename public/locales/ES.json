@@ -1,0 +1,118 @@
+{
+  "certificationsTitle": "Certificados",
+  "educationTitle": "Educación",
+  "experienceTitle": "Experiencia",
+  "projectsTitle": "Proyectos",
+  "contactTitle": "Contacto",
+  "skillsTitle": "Habilidades tècnicas",
+  "contact":"Contacto",
+  "certification": [
+    {
+      "title": "C# Developer Path",
+      "issuer": "MongoDB",
+      "date": "2024-06-11",
+      "id": "MDBs334b1eoxu",
+      "link": "https://learn.mongodb.com/c/ZNlzvcCPT4qUCbzxJzYkzA",
+      "img": "https://www.svgrepo.com/show/331488/mongodb.svg"
+    },
+    {
+      "title": "Data Modeling Path",
+      "issuer": "MongoDB",
+      "date": "2024-06-11",
+      "id": "MDBy0i72vcmkp",
+      "link": "https://learn.mongodb.com/c/wwFMePmATf64iftNY1FoqA",
+      "img": "https://www.svgrepo.com/show/331488/mongodb.svg"
+    },
+    {
+      "title": "Azure Fundamentals",
+      "issuer": "Microsoft/Credly",
+      "date": "2024-07-11",
+      "id": "",
+      "link": "https://www.credly.com/badges/c14c74d9-eefe-4a79-93b9-118ccf813147/linked_in_profile",
+      "img": "https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+    }
+  ],
+
+  "education": [
+    {
+      "title": "Desarrollo de aplicaciones multiplataforma",
+      "institution": "Institut Nicolau Copèrnic",
+      "location": "Terrassa, Cataluña, España",
+      "periodTime": "sep. 2023 - mar. 2025",
+      "technologies": [
+        "Java",
+        "SpringBoot",
+        "Spring Security",
+        "PHP",
+        "Kotlin",
+        "Android Studio"
+      ]
+    },
+    {
+      "title": "Framework .NET & C#",
+      "location": "Barcelona, Cataluña, España",
+      "institution": "EnfocaT Bootcamp",
+      "periodTime": "may. 2024 - ago. 2024",
+      "technologies": ["C#", ".NET"]
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Desarrollador de Software",
+      "company": "GINDUMAC",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQFtD0f-TmipfA/company-logo_200_200/company-logo_200_200/0/1725882602482/gindumac_gmbh_logo?e=1750291200&v=beta&t=jRwo63CyuhhR-MKLHX_Obj9Z3ucTa3-KlRHvkRHocWY",
+      "contractType": "FP",
+      "periodTime": "feb. 2025 - ahora",
+      "location": "Barcelona, Cataluña, España",
+      "description": "Trabajando en dos áreas clave dentro de la empresa: mejorando su sitio web e interfaz de usuario, y configurando máquinas virtuales para servicios de alojamiento que apoyan las operaciones comerciales.",
+      "technologies": ["React", "NextJS", "Google Cloud", "TypeScript"]
+    },
+    {
+      "title": "Desarrollador de Software",
+      "company": "WITEKLAB",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQHbz0UIALCwXQ/company-logo_200_200/company-logo_200_200/0/1630577613549/witeklab_logo?e=1750291200&v=beta&t=VBnHNvYGfttjQNDIOePV-UatYsd76_hQ3x4uYi9AZ_M",
+      "contractType": "Prácticas",
+      "periodTime": "oct. 2024 - ene. 2025",
+      "location": "Terrassa, Cataluña, España",
+      "description": "Formé parte de un equipo que desarrolló una aplicación web que recopila, interpreta y muestra datos en tiempo real de repetidores y puntos de acceso, permitiendo la configuración y gestión de dispositivos.",
+      "technologies": ["Python", "FastAPI", "PHP", "Laravel", "Angular"]
+    }
+  ],
+
+  "navbar": [
+    { "text": "Inicio", "link": "#home" },
+    { "text": "Habilidades", "link": "#skills" },
+    { "text": "Educación", "link": "#education" },
+    { "text": "Proyectos", "link": "#projects" }
+  ],
+
+  "projects": [
+    {
+      "principal": [
+        {
+          "title": "Trending words",
+          "description": "Una herramienta de scraping web y procesamiento de lenguaje natural (NLP) que extrae y analiza palabras en tendencia de noticias en línea, filtrando nombres y ubicaciones. Proporciona información útil para el aprendizaje de idiomas y análisis cultural.",
+          "repository": "#home",
+          "technologies": ["Python", "Flask", "NLTK", "spaCy", "Pandas"],
+          "link": ""
+        },
+        {
+          "title": "The Pokemon APP",
+          "description": "Una aplicación web de una sola página que muestra una lista interactiva de Pokémon obtenidos de una API pública externa y permite ver los detalles individuales de cada Pokémon. Fue desarrollada con NextJS, React y TypeScript.",
+          "repository": "https://github.com/christianfitaram/the-pokemon-app",
+          "technologies": ["React", "NextJs"],
+          "link": "https://the-pokemon-app-two.vercel.app/"
+        },
+        {
+          "title": "Trivia game",
+          "description": "Un juego de trivia diseñado en Ruby para ejecutarse en la consola. Utiliza una API en línea para obtener preguntas y respuestas de trivia. Permite almacenar en memoria el nombre y la puntuación de un participante si así lo desea.",
+          "repository": "https://github.com/christianfitaram/clivia",
+          "technologies": ["Ruby"],
+          "link": ""
+        }
+      ],
+      "projects": []
+    }
+  ]
+}
