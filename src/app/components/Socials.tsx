@@ -9,7 +9,7 @@ export default function Socials() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub className="text-gray-300 hover:text-white transition duration-300" />
+          <FaGithub className="dark:text-gray-300 text-gray-900 hover:text-white transition duration-300" />
           Github
         </a>
         <a

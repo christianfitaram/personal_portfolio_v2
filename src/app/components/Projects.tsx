@@ -51,7 +51,7 @@ export default function Projects() {
           projectData.map((project, index) => (
             <div
               key={index}
-              className="bg-purple-gradient dark:bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transition-all 
+              className=" dark:bg-gray-800 bg-gray-300 rounded-lg p-6 shadow-md hover:shadow-lg transition-all 
                    w-full max-w-full overflow-hidden break-words h-full flex flex-col justify-between"
             >
               <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
@@ -76,7 +76,7 @@ export default function Projects() {
               <div className="mt-4 pt-4 flex justify-between items-center border-t border-gray-600">
                 {project.repository && (
                   <div className="flex flex-row items-center gap-2">
-                    <FaGithub className="text-gray-300 hover:text-white transition duration-300" />
+                    <FaGithub className="dark:text-gray-300 text-gray-900 hover:text-white transition duration-300" />
                     <a
                       href={project.repository}
                       target="_blank"
@@ -91,7 +91,7 @@ export default function Projects() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white hover:underline break-words"
+                    className="dark:text-white text-gray-900 hover:underline break-words"
                   >
                     Live Demo
                   </a>

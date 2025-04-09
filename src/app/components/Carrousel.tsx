@@ -35,12 +35,11 @@ export default function Carousel() {
       >
         {/* Duplicate logos to remove gaps at the end */}
         {[...logos, ...logos, ...logos, ...logos, ...logos, ...logos,  ...logos].map((src, index) => (
-          <img
-            key={index}
-            src={src}
-            alt={`Tech logo ${index}`}
-            className="h-10 w-10 sm:h-10 sm:w-10 bg-transparent"
-          />
+  <img
+  src={src}
+  alt={`Tech logo ${index}`}
+  className="h-10 w-10 sm:h-10 sm:w-10 dark:invert-0 invert"
+/>
         ))}
       </motion.div>
     </div>
