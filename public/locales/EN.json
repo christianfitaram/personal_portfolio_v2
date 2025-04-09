@@ -53,7 +53,7 @@
     {
       "title": "Software Developer",
       "company": "GINDUMAC",
-      "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQFtD0f-TmipfA/company-logo_200_200/company-logo_200_200/0/1725882602482/gindumac_gmbh_logo?e=1750291200&v=beta&t=jRwo63CyuhhR-MKLHX_Obj9Z3ucTa3-KlRHvkRHocWY",
+      "companyLogo": "../img/gindumac_logo.jpeg",
       "contractType": "FP Dual",
       "periodTime": "feb. 2025 - now ",
       "location": "Barcelona, Cataluña, España",
@@ -63,7 +63,7 @@
     {
       "title": "Software Developer",
       "company": "WITEKLAB",
-      "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQHbz0UIALCwXQ/company-logo_200_200/company-logo_200_200/0/1630577613549/witeklab_logo?e=1750291200&v=beta&t=VBnHNvYGfttjQNDIOePV-UatYsd76_hQ3x4uYi9AZ_M",
+      "companyLogo": "../img/witeklab_logo.jpeg",
       "contractType": "Internship (FCT)",
       "periodTime": "oct. 2024 - jan. 2025",
       "location": "Terrassa, Cataluña, España",

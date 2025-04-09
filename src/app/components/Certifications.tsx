@@ -16,7 +16,7 @@ export default function Certifications() {
             onClick={() => window.open(
               cert.link, "_blank")}
               key={index}
-              className="dark:bg-gray-800  bg-gray-100 pr-6 rounded-full shadow-lg gap-2 w-fit flex flex-row items-center text-start transition-transform transform hover:scale-105 hover:shadow-xl cursor-pointer"
+              className="dark:bg-gray-800  bg-gray-300 pr-6 rounded-full shadow-lg gap-2 w-fit flex flex-row items-center text-start transition-transform transform hover:scale-105 hover:shadow-xl cursor-pointer"
             >
               <div className="flex items-center justify-center w-24 h-24 bg-white rounded-full p-2">
                 <img

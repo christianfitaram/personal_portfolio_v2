@@ -17,7 +17,7 @@ export default function Education() {
               {translations.education?.map((edu: any, index: number) => (
                 <div
                   key={index}
-                  className="dark:bg-gray-800 bg-gray-100 p-6 rounded-lg shadow-lg"
+                  className="dark:bg-gray-800 bg-gray-300 p-6 rounded-lg shadow-lg"
                 >
                   <h3 className="text-xl font-semibold">{edu.title}</h3>
                   <p className="dark:text-gray-400 text-sm">
