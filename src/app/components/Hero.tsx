@@ -8,11 +8,12 @@ export default function Hero() {
       <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
        <TypeWriter/> &nbsp;
       </code>
+      
       <div className="flex flex-col w-1/2">
-      <p className="tracking-[-.01em] text-left sm:text-left font-medium ">
+      <p className="tracking-[-.01em] text-left sm:text-left font-bold ">
       {translations.description_1 || "Web and mobile solutions using React, Next.js, Spring Boot, andKotlin."}
       </p>
-      <p className="tracking-[-.01em] text-left sm:text-left font-medium ">
+      <p className="tracking-[-.01em] text-left sm:text-left font-bold">
       {translations.description_2 || "With a focus on data-driven technologies for efficient and scalable applications."}
       </p>
       </div>

@@ -4,6 +4,19 @@
   --background: #ffffff;
   --foreground: #171717;
   --fontFamily: "soehne", "Helvetica Neue", "Arial", sans-serif;
+  --card-bg: #f0f0f0;
+  --card-text: #1a1a1a;
+  --card-experience-bg: var(--color-gray-300);
+  --card-experience-element-bg: var(--color-gray-400);
+
+  --card-projects-bg: var(--color-gray-300);
+  --card-education-bg: var(--color-gray-400);
+  --card-education-element-bg: var(--color-gray-300);
+  --card-certification-bg: var(--color-gray-500);
+  --card-certification-element-bg: var(--color-gray-300);
+  --invert-value: 1; /* Default to inverted (light mode) */
+
+
 }
 
 @theme inline {
@@ -13,23 +26,36 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Add this block */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --card-bg: #1a1a1a;
+  --card-text: #f0f0f0;
+  --card-experience-bg: var(--color-gray-800);
+  --card-experience-element-bg: var(--color-gray-900);
+
+  --card-projects-bg: var(--color-gray-800);
+  --card-education-bg: var(--color-gray-900);
+  --card-education-element-bg: var(--color-gray-800);
+  --card-certification-bg: var(--color-gray-900);
+  --card-certification-element-bg: var(--color-gray-800);
+  --text-secondary: var(--color-gray-400);
+  --invert-value: 0; /* Disable invert in dark mode */
+
 }
+
 
 @font-face {
   font-family: "soehne";
-  src: url("/public/fonts/test-soehne-leicht.woff2") format("woff2");
+  src: url("/fonts/test-soehne-leicht.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "soehne-extra";
-  src: url("/public/fonts/test-soehne-extraleicht.woff2") format("woff2");
+  src: url("/fonts/test-soehne-extraleicht.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -38,6 +64,8 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--fontFamily);
+  font-weight: 800; /* slightly bolder */
+
 }
 
 .regular-font {

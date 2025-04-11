@@ -28,10 +28,11 @@ export default function Projects() {
 
   return (
     <div id="#projects" className="w-full mx-auto">
-      <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-        {translations.projectsTitle || "Projects"}
-      </code>
-
+      <div className="mb-4">
+        <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
+          {translations.projectsTitle || "Projects"}
+        </code>
+      </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
         {loading ? (
           Array(3)
@@ -51,16 +52,12 @@ export default function Projects() {
           projectData.map((project, index) => (
             <div
               key={index}
-              className=" dark:bg-gray-800 bg-gray-300 rounded-lg p-6 shadow-md hover:shadow-lg transition-all 
+              className=" bg-[var(--card-projects-bg)] rounded-lg p-6 shadow-md hover:shadow-lg transition-all 
                    w-full max-w-full overflow-hidden break-words h-full flex flex-col justify-between"
             >
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-                {project.title}
-              </h3>
+              <h3 className="text-xl">{project.title}</h3>
               <div className="flex flex-col items-start h-full">
-                <p className="text-gray-700 dark:text-gray-300 mt-2 break-words font-medium">
-                  {project.description}
-                </p>
+                <p className="mt-2 break-words">{project.description}</p>
               </div>
               <div className="mt-4 flex flex-wrap gap-2">
                 {project.technologies.map((tech, techIndex) => (
@@ -76,13 +73,13 @@ export default function Projects() {
               <div className="mt-4 pt-4 flex justify-between items-center border-t border-gray-600">
                 {project.repository && (
                   <div className="flex flex-row items-center gap-2">
-                    <FaGithub className="dark:text-gray-300 text-gray-900 hover:text-white transition duration-300" />
+                    <FaGithub className="transition duration-300" />
                     <a
                       href={project.repository}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                     {translations.repository ||"Repository" } 
+                      {translations.repository || "Repository"}
                     </a>
                   </div>
                 )}
@@ -91,7 +88,7 @@ export default function Projects() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="dark:text-white text-gray-900 hover:underline break-words"
+                    className="hover:underline break-words"
                   >
                     Live Demo
                   </a>
