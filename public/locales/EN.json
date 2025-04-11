@@ -30,7 +30,7 @@
     {
       "title": "Cross-platform application development",
       "institution": "Institut Nicolau Copèrnic",
-      "location": "Terrassa, Cataluña, España",
+      "location": "Barcelona/Terrassa",
       "periodTime": "sep. 2023 - march. 2025 ",
       "technologies": [
         "Java",
@@ -43,7 +43,7 @@
     },
     {
       "title": ".NET Framework & C#",
-      "location": "Barcelona, Cataluña, España",
+      "location": "Barcelona",
       "institution": "EnfocaT Bootcamp",
       "periodTime": "may. 2024 - aug. 2024 ",
       "technologies": ["C#", ".NET"]
@@ -56,7 +56,7 @@
       "companyLogo": "../img/gindumac_logo.jpeg",
       "contractType": "FP Dual",
       "periodTime": "feb. 2025 - now ",
-      "location": "Barcelona, Cataluña, España",
+      "location": "Barcelona",
       "description": "Working on two key areas within the company: enhancing their website and user interface, and configuring virtual machines for hosting services to support business operations.",
       "technologies": ["React", "NextJS", "Google Cloud", "TypeScript"]
     },
@@ -66,7 +66,7 @@
       "companyLogo": "../img/witeklab_logo.jpeg",
       "contractType": "Internship (FCT)",
       "periodTime": "oct. 2024 - jan. 2025",
-      "location": "Terrassa, Cataluña, España",
+      "location": "Barcelona",
       "description": "I was part of a team that developed a web application that collects, interprets, and displays real-time data from repeaters and access points while allowing device configuration and management.",
       "technologies": ["Python", "FastAPI", "PHP", "Laravel", "Angular"]
     }

@@ -3,8 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --fontFamily: "soehne", "Helvetica Neue", "Arial", sans-serif;
-  --card-bg: #f0f0f0;
+
   --card-text: #1a1a1a;
   --card-experience-bg: var(--color-gray-300);
   --card-experience-element-bg: var(--color-gray-400);
@@ -46,37 +45,14 @@
 }
 
 
-@font-face {
-  font-family: "soehne";
-  src: url("/fonts/test-soehne-leicht.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "soehne-extra";
-  src: url("/fonts/test-soehne-extraleicht.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--fontFamily);
-  font-weight: 800; /* slightly bolder */
+font-family: var(--font-geist-sans);
 
 }
 
-.regular-font {
-  font-family: "soehne", "Helvetica Neue", "Arial", sans-serif;
-  font-size: 1rem;
-}
-
-.regular-font-2 {
-  font-family: "soehne-extra", "Helvetica Neue", "Arial", sans-serif;
-  font-size: 1rem;
-}
 
 .bg-custom {
   background: var(--background);

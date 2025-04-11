@@ -41,7 +41,7 @@
     {
       "title": "Desarrollo de aplicaciones multiplataforma",
       "institution": "Institut Nicolau Copèrnic",
-      "location": "Terrassa, Cataluña, España",
+      "location": "Barcelona/Terrassa",
       "periodTime": "sep. 2023 - mar. 2025",
       "technologies": [
         "Java",
@@ -54,7 +54,7 @@
     },
     {
       "title": "Framework .NET & C#",
-      "location": "Barcelona, Cataluña, España",
+      "location": "Barcelona",
       "institution": "EnfocaT Bootcamp",
       "periodTime": "may. 2024 - ago. 2024",
       "technologies": ["C#", ".NET"]
@@ -66,9 +66,9 @@
       "title": "Desarrollador de Software",
       "company": "GINDUMAC",
       "companyLogo": "../img/gindumac_logo.jpeg",
-      "contractType": "FP",
+      "contractType": "FP Dual",
       "periodTime": "feb. 2025 - ahora",
-      "location": "Barcelona, Cataluña, España",
+      "location": "Barcelona",
       "description": "Actualmente trabajando en web UI, optimizando sitios web e interfaces de usuario, además, configurando máquinas virtuales para servicios que apoyen las operaciones comerciales.",
       "technologies": ["React", "NextJS", "Google Cloud", "TypeScript"]
     },
@@ -76,9 +76,9 @@
       "title": "Desarrollador de Software",
       "company": "WITEKLAB",
       "companyLogo": "../img/witeklab_logo.jpeg",
-      "contractType": "Prácticas",
+      "contractType": "FCT",
       "periodTime": "oct. 2024 - ene. 2025",
-      "location": "Terrassa, Cataluña, España",
+      "location": "Barcelona",
       "description": "Formé parte de un equipo que desarrolló una aplicación web que recopila, interpreta y muestra datos en tiempo real de repetidores y puntos de acceso, permitiendo la configuración y gestión de dispositivos.",
       "technologies": ["Python", "FastAPI", "PHP", "Laravel", "Angular"]
     }
