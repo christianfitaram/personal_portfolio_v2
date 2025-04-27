@@ -14,8 +14,6 @@
   --card-certification-bg: var(--color-gray-500);
   --card-certification-element-bg: var(--color-gray-300);
   --invert-value: 1; /* Default to inverted (light mode) */
-
-
 }
 
 @theme inline {
@@ -41,25 +39,20 @@
   --card-certification-element-bg: var(--color-gray-800);
   --text-secondary: var(--color-gray-400);
   --invert-value: 0; /* Disable invert in dark mode */
-
 }
-
-
 
 body {
   background: var(--background);
   color: var(--foreground);
-font-family: var(--font-geist-sans);
-
+  font-family: var(--font-geist-sans);
 }
-
 
 .bg-custom {
   background: var(--background);
 }
 
-.bg-purple-gradient{
-  background: rgb(25, 25, 25)
+.bg-purple-gradient {
+  background: rgb(25, 25, 25);
 }
 
 footer {

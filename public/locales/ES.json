@@ -99,7 +99,7 @@
           "description": "Un pipeline de NLP modular diseñado para extraer, limpiar, clasificar, resumir, analizar, almacenar y predecir contenido lingüístico en tendencia utilizando sitios web de noticias como fuentes.",
           "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
           "technologies": ["Python", "Flask", "NLTK", "spaCy", "Pandas","NLP","Tensor Flow","Machine Learnig","Keras"],
-          "link": ""
+          "link": "https://trendapi.enricfitaram.dev/"
         },
         {
           "title": "The Pokemon APP",
