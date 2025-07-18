@@ -55,10 +55,20 @@
       "company": "GINDUMAC",
       "companyLogo": "../img/gindumac_logo.jpeg",
       "contractType": "FP Dual",
-      "periodTime": "feb. 2025 - now ",
+      "periodTime": "feb. 2025 - jul. 2025 ",
       "location": "Barcelona",
-      "description": "Working on two key areas within the company: enhancing their website and user interface, and configuring virtual machines for hosting services to support business operations.",
-      "technologies": ["React", "NextJS", "Google Cloud", "TypeScript"]
+      "description": "During my internship at GINDUMAC, I worked on full-stack projects using React, Next.js, TypeScript, Python, and cloud tools like GCP and N8N. I contributed to automation workflows that integrated AI to optimize resources and reduce errors, developed intelligent chatbots, recommendation systems, and UI redesigns, gaining hands-on experience in agile development, DevOps, and cross-platform solutions including Android.",
+      "technologies": [
+        "React",
+        "NextJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "i18n",
+        "N8N",
+        "Google Cloud Platform",
+        "Vercel AI SDK",
+        "OpenAI SDK/API"
+      ]
     },
     {
       "title": "Software Developer",
@@ -67,7 +77,7 @@
       "contractType": "Internship (FCT)",
       "periodTime": "oct. 2024 - jan. 2025",
       "location": "Barcelona",
-      "description": "I was part of a team that developed a web application that collects, interprets, and displays real-time data from repeaters and access points while allowing device configuration and management.",
+      "description": "I contributed to the development of a web application designed to collect, analyze, and display real-time data from repeaters and access points deployed across industrial and construction sites, while also enabling remote device configuration and management.",
       "technologies": ["Python", "FastAPI", "PHP", "Laravel", "Angular"]
     }
   ],
@@ -81,25 +91,49 @@
     {
       "principal": [
         {
-          "title": "Trending words",
-          "description": "A modular NLP pipeline designed to scrape, clean, classify, summarize, analyze, store and predict trending linguistic content from real-world news sources.",
-          "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
-          "technologies": ["Python", "Flask", "NLTK", "spaCy", "Pandas","NLP","Tensor Flow","Machine Learnig","Keras"],
+          "title": "Trending words API/UI",
+          "description": "A platform for developers and businesses to programmatically access and analyze trending words in the news. It features a secure, user-friendly frontend dashboard built with modern web technologies, and a robust backend powered by a Spring Boot API developed in Java. The entire system is containerized with Docker and deployed on Google Cloud, ensuring scalability, maintainability, and ease of access.",
+          "technologies": [
+            "TypeScript",
+            "React",
+            "NextJS",
+            "Tailwind CSS",
+            "Java",
+            "SpringBoot",
+            "Docker",
+            "GCP"
+          ],
           "link": "https://trendapi.enricfitaram.dev/"
         },
         {
-          "title": "The Pokemon APP",
-          "description":  "A dinamic web application that allows users to search and explore detailed Pokémon information in real-time. Implementing the OpenAI API, it is possible to chat with the Pokémon or get assistance to localize them. Deployed in Google Cloud VM",
-          "repository": "https://github.com/christianfitaram/the-pokemon-app",
-          "technologies": ["React", "NextJs","TypeScript","Tailwind CSS","Google Cloud", "OpenAI API"],
-          "link": "https://project1.enricfitaram.dev/"
+          "title": "Trending words",
+          "description": "A modular NLP platform that scrapes news, classifies content by topic and sentiment using AI models (TensorFlow, spaCy), and analyzes trending nouns. It stores and processes data with MongoDB, offers a prediction pipeline using LSTM models, and exposes results through a Flask API. Designed for scalability and media analysis, it enables real-time insights into language and content trends.",
+          "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
+          "technologies": [
+            "Python",
+            "Flask",
+            "NLTK",
+            "spaCy",
+            "Pandas",
+            "NLP",
+            "Tensor Flow",
+            "Machine Learnig",
+            "Keras"
+          ]
         },
         {
-          "title": "Portfolio",
-          "description": "My personal portfolio is a static Ract and NextJS web application. It supports a multilanguage feature and smooth animations. Deployed in a Google Cloud VM with a custom hot-reload using Github",
-          "repository": "https://github.com/christianfitaram/personal_portfolio_v2",
-          "technologies":["React", "NextJs","TypeScript","Tailwind CSS","Google Cloud"],
-          "link": ""
+          "title": "The Pokemon APP",
+          "description": "Pokémon-themed web app letting users explore, search, and view information about various Pokémon. It features components for displaying Pokémon cards, evolution details, and a chat assistant for interactive queries. The app includes a search engine, recently viewed tracking, and type-based color theming. It uses modern web technologies and delivers a visually engaging, interactive experience for Pokémon fans.",
+          "repository": "https://github.com/christianfitaram/the-pokemon-app",
+          "technologies": [
+            "React",
+            "NextJs",
+            "TypeScript",
+            "Tailwind CSS",
+            "Google Cloud",
+            "OpenAI API"
+          ],
+          "link": "https://project1.enricfitaram.dev/"
         }
       ],
       "projects": []

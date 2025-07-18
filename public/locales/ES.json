@@ -5,11 +5,11 @@
   "projectsTitle": "Proyectos",
   "contactTitle": "Contacto",
   "skillsTitle": "Habilidades tècnicas",
-  "contact":"Contacto",
-  "description_1":"Soluciones web y móviles con React, Next.js, Spring Boot y Kotlin.",
-  "description_2":"Con énfasis en tecnologías de datos para aplicaciones eficientes y escalables.",
+  "contact": "Contacto",
+  "description_1": "Soluciones web y móviles con React, Next.js, Spring Boot y Kotlin.",
+  "description_2": "Con énfasis en tecnologías de datos para aplicaciones eficientes y escalables.",
   "repository": "Repositorio",
-  "typewriter":"Hola, Soy Christian",
+  "typewriter": "Hola, Soy Christian",
   "certification": [
     {
       "title": "C# Developer Path",
@@ -67,10 +67,20 @@
       "company": "GINDUMAC",
       "companyLogo": "../img/gindumac_logo.jpeg",
       "contractType": "FP Dual",
-      "periodTime": "feb. 2025 - ahora",
+      "periodTime": "feb. 2025 - jul. 2025",
       "location": "Barcelona",
-      "description": "Actualmente trabajando en web UI, optimizando sitios web e interfaces de usuario, además, configurando máquinas virtuales para servicios que apoyen las operaciones comerciales.",
-      "technologies": ["React", "NextJS", "Google Cloud", "TypeScript"]
+      "description": "Durante mis prácticas en GINDUMAC, trabajé en proyectos full-stack con React, Next.js, TypeScript, Python y herramientas en la nube como GCP y N8N. Participé en flujos de automatización que integraban IA para optimizar recursos y reducir errores, desarrollé chatbots inteligentes, sistemas de recomendación y rediseños de UI, adquiriendo experiencia práctica en desarrollo ágil, DevOps y soluciones multiplataforma, incluyendo Android",
+      "technologies": [
+        "React",
+        "NextJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "i18n",
+        "N8N",
+        "Google Cloud Platform",
+        "Vercel AI SDK",
+        "OpenAI SDK/API"
+      ]
     },
     {
       "title": "Desarrollador de Software",
@@ -79,7 +89,7 @@
       "contractType": "FCT",
       "periodTime": "oct. 2024 - ene. 2025",
       "location": "Barcelona",
-      "description": "Formé parte de un equipo que desarrolló una aplicación web que recopila, interpreta y muestra datos en tiempo real de repetidores y puntos de acceso, permitiendo la configuración y gestión de dispositivos.",
+      "description": "Contribuí al desarrollo de una aplicación web diseñada para recopilar, analizar y visualizar datos en tiempo real provenientes de repetidores y puntos de acceso instalados en sitios industriales y de construcción, permitiendo además la configuración y gestión remota de los dispositivos.",
       "technologies": ["Python", "FastAPI", "PHP", "Laravel", "Angular"]
     }
   ],
@@ -95,25 +105,50 @@
     {
       "principal": [
         {
-          "title": "Trending words",
-          "description": "Un pipeline de NLP modular diseñado para extraer, limpiar, clasificar, resumir, analizar, almacenar y predecir contenido lingüístico en tendencia utilizando sitios web de noticias como fuentes.",
-          "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
-          "technologies": ["Python", "Flask", "NLTK", "spaCy", "Pandas","NLP","Tensor Flow","Machine Learnig","Keras"],
+          "title": "API/UI de Palabras en Tendencia",
+          "description": "Plataforma para que desarrolladores y empresas accedan y analicen programáticamente palabras en tendencia dentro de noticias. Cuenta con un panel de control seguro y fácil de usar desarrollado con tecnologías web modernas, y un backend robusto impulsado por una API en Spring Boot desarrollada en Java. Todo el sistema está contenerizado con Docker y desplegado en Google Cloud, lo que garantiza escalabilidad, mantenibilidad y fácil acceso.",
+          "technologies": [
+            "TypeScript",
+            "React",
+            "NextJS",
+            "Tailwind CSS",
+            "Java",
+            "SpringBoot",
+            "Docker",
+            "GCP"
+          ],
           "link": "https://trendapi.enricfitaram.dev/"
         },
         {
-          "title": "The Pokemon APP",
-          "description": "Una aplicación web dinámica que permite a los usuarios buscar y explorar información detallada de Pokemones en tiempo real. Además, al implementar la API de OpenAI, es posible chatear con los pokemones o recibir ayuda para localizarlos. Deploy en Google Cloud VM.",
-          "repository": "https://github.com/christianfitaram/the-pokemon-app",
-          "technologies": ["React", "NextJs","TypeScript","Tailwind CSS","Google Cloud", "OpenAI API"],
-          "link": "https://project1.enricfitaram.dev/"
+          "title": "Trending words",
+          "description": "Plataforma modular de NLP que recopila noticias, clasifica el contenido por tema y sentimiento usando modelos de IA (TensorFlow, spaCy) y analiza los sustantivos más relevantes. Almacena y procesa los datos con MongoDB, ofrece una pipeline de predicción basada en modelos LSTM y expone los resultados a través de una API desarrollada en Flask. Diseñada para ser escalable y orientada al análisis mediático, permite obtener insights en tiempo real sobre las tendencias lingüísticas y de contenido.",
+          "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
+          "technologies": [
+            "Python",
+            "Flask",
+            "NLTK",
+            "spaCy",
+            "Pandas",
+            "NLP",
+            "Tensor Flow",
+            "Machine Learnig",
+            "Keras"
+          ],
+          "link": "https://github.com/christianfitaram/LanguageTrendExplorer"
         },
         {
-          "title": "Portafolio",
-          "description": "Mi portafolio personal es una aplicación web estática, desarrollada en React y NextJS. Admite funciones multilingües y animaciones fluidas. Implementada en una máquina virtual de Google Cloud",
-          "repository": "https://github.com/christianfitaram/personal_portfolio_v2",
-          "technologies":["React", "NextJs","TypeScript","Tailwind CSS","Google Cloud"],
-          "link": ""
+          "title": "The Pokemon APP",
+          "description": "Plataforma web con temática Pokémon que permite a los usuarios explorar, buscar y ver información detallada sobre distintos Pokémon. Cuenta con componentes para mostrar cartas de Pokémon, detalles de evolución y un asistente de chat para consultas interactivas. La app incluye un motor de búsqueda, seguimiento de los Pokémon vistos recientemente y una tematización de colores basada en los tipos. Utiliza tecnologías web modernas y ofrece una experiencia visualmente atractiva e interactiva para los fans de Pokémon.",
+          "repository": "https://github.com/christianfitaram/the-pokemon-app",
+          "technologies": [
+            "React",
+            "NextJs",
+            "TypeScript",
+            "Tailwind CSS",
+            "Google Cloud",
+            "OpenAI API"
+          ],
+          "link": "https://project1.enricfitaram.dev/"
         }
       ],
       "projects": []

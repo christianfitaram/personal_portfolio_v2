@@ -19,7 +19,7 @@ export default function Hero() {
       </div>
       <div className="flex gap-4  items-center flex-col sm:flex-row">
         <a
-          className="rounded-full bg-gray-300 text-gray-700 border border-solid border-transparent transition-colors flex items-center justify-center dark:bg-foreground dark:text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+          className="rounded-full border border-solid  transition-colors flex items-center justify-center  gap-2 hover:bg-[#383838] dark:hover:bg-[#888] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
           href="mailto:christianfitaram@gmail.com"
           target="_blank"
           rel="noopener noreferrer"

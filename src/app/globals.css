@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: hsl(#ffffff);
   --foreground: #171717;
 
   --card-text: #1a1a1a;
@@ -9,10 +9,10 @@
   --card-experience-element-bg: var(--color-gray-400);
 
   --card-projects-bg: var(--color-gray-300);
-  --card-education-bg: var(--color-gray-400);
-  --card-education-element-bg: var(--color-gray-300);
-  --card-certification-bg: var(--color-gray-500);
-  --card-certification-element-bg: var(--color-gray-300);
+  --card-education-bg: var(--color-gray-300);
+  --card-education-element-bg: var(--color-gray-400);
+  --card-certification-bg: var(--color-gray-300);
+  --card-certification-element-bg: var(--color-gray-400);
   --invert-value: 1; /* Default to inverted (light mode) */
 }
 
@@ -25,7 +25,7 @@
 
 /* Add this block */
 .dark {
-  --background: #0a0a0a;
+  --background: hsl(0 0% 9.02%);
   --foreground: #ededed;
   --card-bg: #1a1a1a;
   --card-text: #f0f0f0;
@@ -33,10 +33,10 @@
   --card-experience-element-bg: var(--color-gray-900);
 
   --card-projects-bg: var(--color-gray-800);
-  --card-education-bg: var(--color-gray-900);
-  --card-education-element-bg: var(--color-gray-800);
-  --card-certification-bg: var(--color-gray-900);
-  --card-certification-element-bg: var(--color-gray-800);
+  --card-education-bg: var(--color-gray-800);
+  --card-education-element-bg: var(--color-gray-900);
+  --card-certification-bg: var(--color-gray-800);
+  --card-certification-element-bg: var(--color-gray-900);
   --text-secondary: var(--color-gray-400);
   --invert-value: 0; /* Disable invert in dark mode */
 }
