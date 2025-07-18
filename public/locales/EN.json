@@ -107,7 +107,7 @@
         },
         {
           "title": "Trending words",
-          "description": "A modular NLP platform that scrapes news, classifies content by topic and sentiment using AI models (TensorFlow, spaCy), and analyzes trending nouns. It stores and processes data with MongoDB, offers a prediction pipeline using LSTM models, and exposes results through a Flask API. Designed for scalability and media analysis, it enables real-time insights into language and content trends.",
+          "description": "A modular NLP platform that scrapes news, classifies content by topic and sentiment using AI models (TensorFlow, spaCy), and analyzes trending nouns. It stores and processes data with MongoDB, offers a prediction pipeline using LSTM models. Designed for scalability and media analysis, it enables real-time insights into language and content trends.",
           "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
           "technologies": [
             "Python",

@@ -121,7 +121,7 @@
         },
         {
           "title": "Trending words",
-          "description": "Plataforma modular de NLP que recopila noticias, clasifica el contenido por tema y sentimiento usando modelos de IA (TensorFlow, spaCy) y analiza los sustantivos más relevantes. Almacena y procesa los datos con MongoDB, ofrece una pipeline de predicción basada en modelos LSTM y expone los resultados a través de una API desarrollada en Flask. Diseñada para ser escalable y orientada al análisis mediático, permite obtener insights en tiempo real sobre las tendencias lingüísticas y de contenido.",
+          "description": "Plataforma modular de NLP que recopila noticias, clasifica el contenido por tema y sentimiento usando modelos de IA (TensorFlow, spaCy) y analiza los sustantivos más relevantes. Almacena y procesa los datos con MongoDB, ofrece una pipeline de predicción basada en modelos LSTM. Diseñada para ser escalable y orientada al análisis mediático, permite obtener insights en tiempo real sobre las tendencias lingüísticas y de contenido.",
           "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
           "technologies": [
             "Python",
