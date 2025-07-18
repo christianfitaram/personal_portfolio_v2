@@ -1,0 +1,164 @@
+{
+  "certificationsTitle": "Certificats",
+  "educationTitle": "Educació",
+  "experienceTitle": "Experiència",
+  "projectsTitle": "Projectes",
+  "contactTitle": "Contacte",
+  "skillsTitle": "Habilitats tècniques",
+  "contact": "Contacte",
+  "description_1": "Solucions web i mòbils amb React, Next.js, Spring Boot i Kotlin.",
+  "description_2": "Amb èmfasi en tecnologies de dades per a aplicacions eficients i escalables.",
+  "repository": "Repositori",
+  "typewriter": "Hola, sóc Christian",
+  "certification": [
+    {
+      "title": "MongoDB C# Developer Path",
+      "issuer": "MongoDB",
+      "date": "2024-06-11",
+      "id": "MDBs334b1eoxu",
+      "link": "https://learn.mongodb.com/c/ZNlzvcCPT4qUCbzxJzYkzA",
+      "img": "https://www.svgrepo.com/show/331488/mongodb.svg"
+    },
+    {
+      "title": "MongoDB Data Modeling Path",
+      "issuer": "MongoDB",
+      "date": "2024-06-11",
+      "id": "MDBy0i72vcmkp",
+      "link": "https://learn.mongodb.com/c/wwFMePmATf64iftNY1FoqA",
+      "img": "https://www.svgrepo.com/show/331488/mongodb.svg"
+    },
+    {
+      "title": "Azure Fundamentals",
+      "issuer": "Microsoft/Credly",
+      "date": "2024-07-11",
+      "id": "",
+      "link": "https://www.credly.com/badges/c14c74d9-eefe-4a79-93b9-118ccf813147/linked_in_profile",
+      "img": "https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+    }
+  ],
+  "education": [
+    {
+      "title": "Desenvolupament d'Aplicacions Multiplataforma",
+      "institution": "Institut Nicolau Copèrnic",
+      "location": "Barcelona/Terrassa",
+      "periodTime": "sep. 2023 - march. 2025 ",
+      "technologies": [
+        "Java",
+        "SpringBoot",
+        "Spring Security",
+        "PHP",
+        "Kotlin",
+        "Android Studio"
+      ]
+    },
+    {
+      "title": "Framework .NET i C#",
+      "location": "Barcelona",
+      "institution": "EnfocaT Bootcamp",
+      "periodTime": "may. 2024 - aug. 2024 ",
+      "technologies": ["C#", ".NET"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Desenvolupador de software",
+      "company": "GINDUMAC",
+      "companyLogo": "../img/gindumac_logo.jpeg",
+      "contractType": "FP Dual",
+      "periodTime": "feb. 2025 - jul. 2025 ",
+      "location": "Barcelona",
+      "description": "Durant la meva estada a GINDUMAC, vaig treballar en projectes full-stack utilitzant React, Next.js, TypeScript, Python i eines al núvol com GCP i N8N. Vaig contribuir a fluxos de treball automatitzats que integraven IA per optimitzar recursos i reduir errors, desenvolupant xatbots intel·ligents, sistemes de recomanació i redissenys d'interfícies. Vaig adquirir experiència pràctica en desenvolupament àgil, DevOps i solucions multiplataforma incloent Android.",
+      "technologies": [
+        "React",
+        "NextJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "i18n",
+        "N8N",
+        "Google Cloud Platform",
+        "Vercel AI SDK",
+        "OpenAI SDK/API"
+      ]
+    },
+    {
+      "title": "Desenvolupador de software",
+      "company": "WITEKLAB",
+      "companyLogo": "../img/witeklab_logo.jpeg",
+      "contractType": "Internship (FCT)",
+      "periodTime": "oct. 2024 - jan. 2025",
+      "location": "Barcelona",
+      "description": "Vaig contribuir al desenvolupament d'una aplicació web dissenyada per recopilar, analitzar i mostrar dades en temps real de repetidors i punts d'accés desplegats en entorns industrials i de construcció, permetent també la configuració i gestió remota dels dispositius.",
+      "technologies": ["Python", "FastAPI", "PHP", "Laravel", "Angular"]
+    }
+  ],
+  "navbar": [
+    {
+      "text": "Home",
+      "link": "#home"
+    },
+    {
+      "text": "Skills",
+      "link": "#skills"
+    },
+    {
+      "text": "Education",
+      "link": "#education"
+    },
+    {
+      "text": "Projects",
+      "link": "#projects"
+    }
+  ],
+  "projects": [
+    {
+      "principal": [
+        {
+          "title": "Trending words API/UI",
+          "description": "Una plataforma per a desenvolupadors i empreses per accedir i analitzar programàticament paraules de tendència a les notícies. Compta amb un panell frontal segur i fàcil d'utilitzar construït amb tecnologies web modernes, i un backend robust desenvolupat amb una API de Spring Boot en Java. Tot el sistema està contenidoritzat amb Docker i desplegat a Google Cloud, garantint escalabilitat i mantenibilitat.",
+          "technologies": [
+            "TypeScript",
+            "React",
+            "NextJS",
+            "Tailwind CSS",
+            "Java",
+            "SpringBoot",
+            "Docker",
+            "GCP"
+          ],
+          "link": "https://trendapi.enricfitaram.dev/"
+        },
+        {
+          "title": "Trending words",
+          "description": "Una plataforma modular de PNL que rastreja notícies, classifica contingut per tema i sentiment utilitzant models d'IA (TensorFlow, spaCy), i analitza noms en tendència. Emmagatzema i processa dades amb MongoDB, i ofereix un pipeline de predicció amb models LSTM. Dissenyada per a l'escalabilitat i l'anàlisi mediàtica, permet obtenir coneixements en temps real sobre tendències lingüístiques.",
+          "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
+          "technologies": [
+            "Python",
+            "Flask",
+            "NLTK",
+            "spaCy",
+            "Pandas",
+            "NLP",
+            "Tensor Flow",
+            "Machine Learnig",
+            "Keras"
+          ]
+        },
+        {
+          "title": "The Pokemon APP",
+          "description": "Aplicació web amb temàtica Pokémon que permet als usuaris explorar, cercar i veure informació detallada sobre diversos Pokémon. Inclou components per mostrar cartes de Pokémon, detalls d'evolució i un assistent de xat per a consultes interactives. L'app disposa d'un motor de cerca, seguiment de consultes recents i temes de color basats en tipus. Utilitza tecnologies web modernes per oferir una experiència visualment atractiva i interactiva.",
+          "repository": "https://github.com/christianfitaram/the-pokemon-app",
+          "technologies": [
+            "React",
+            "NextJs",
+            "TypeScript",
+            "Tailwind CSS",
+            "Google Cloud",
+            "OpenAI API"
+          ],
+          "link": "https://project1.enricfitaram.dev/"
+        }
+      ],
+      "projects": []
+    }
+  ]
+}

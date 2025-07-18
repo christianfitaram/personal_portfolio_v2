@@ -9,6 +9,11 @@
             "name": "Spanish",
             "code": "ES",
             "flag": "https://storage.googleapis.com/my_portfolio_assets_17022025/flag_es.svg"
+        },
+        {
+            "name": "Català",
+            "code": "CA",
+            "flag": ""
         }
     ]
 }
