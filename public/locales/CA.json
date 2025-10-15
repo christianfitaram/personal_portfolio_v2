@@ -61,6 +61,30 @@
   ],
   "experience": [
     {
+      "title": "Conseller tècnic i d'automatització",
+      "company": "CIBERIN FORESIGHT",
+      "companyLogo": "../img/logo-cibering-cut.png",
+      "contractType": "FP Dual",
+      "periodTime": "ago. 2025 - actual",
+      "location": "Barcelona",
+      "description": "Desenvolupament i implementació d’infraestructura de cloud computing per allotjar i desplegar bases de dades, frameworks i models d’intel·ligència artificial, juntament amb la creació d’API’s que connecten aquests models amb bases de dades SQL i MongoDB, i el desenvolupament de programes basats en arquitectura MVC per a les eines empresarials necessàries.",
+      "technologies": [
+        "React",
+        "NextJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "i18n",
+        "N8N",
+        "Google Cloud Platform",
+        "SQL",
+        "Ollama",
+        "llama 3.1",
+        "GPT-OSS",
+        "Vercel AI SDK",
+        "OpenAI SDK/API"
+      ]
+    },
+    {
       "title": "Desenvolupador de software",
       "company": "GINDUMAC",
       "companyLogo": "../img/gindumac_logo.jpeg",
@@ -113,23 +137,15 @@
     {
       "principal": [
         {
-          "title": "Trending words API/UI",
-          "description": "Una plataforma per a desenvolupadors i empreses per accedir i analitzar programàticament paraules de tendència a les notícies. Compta amb un panell frontal segur i fàcil d'utilitzar construït amb tecnologies web modernes, i un backend robust desenvolupat amb una API de Spring Boot en Java. Tot el sistema està contenidoritzat amb Docker i desplegat a Google Cloud, garantint escalabilitat i mantenibilitat.",
-          "technologies": [
-            "TypeScript",
-            "React",
-            "NextJS",
-            "Tailwind CSS",
-            "Java",
-            "SpringBoot",
-            "Docker",
-            "GCP"
-          ],
+          "title": "Automatic News Site",
+          "repository":"https://github.com/christianfitaram/automatic-news-site",
+          "description": "Versió beta d’un portal de notícies desenvolupat amb ASP.NET Core 8, pensat per provar un flux de publicació completament automatitzat. L’objectiu és demostrar que és possible mantenir un lloc web àgil i eficient amb mínima supervisió humana, integrant webhooks, serveis externs i un sistema de gestió editorial intel·ligent. Aquesta fase inicial pretén optimitzar la recepció, neteja i difusió automàtica de notícies, preparant el camí per a una plataforma més escalable i autònoma.",
+          "technologies": ["C#", ".NET", "Docker", "GCP"],
           "link": "https://trendapi.enricfitaram.dev/"
         },
         {
-          "title": "Trending words",
-          "description": "Una plataforma modular de PNL que rastreja notícies, classifica contingut per tema i sentiment utilitzant models d'IA (TensorFlow, spaCy), i analitza noms en tendència. Emmagatzema i processa dades amb MongoDB, i ofereix un pipeline de predicció amb models LSTM. Dissenyada per a l'escalabilitat i l'anàlisi mediàtica, permet obtenir coneixements en temps real sobre tendències lingüístiques.",
+          "title": "News Scraper",
+          "description": "Projecte en Python centrat en l’anàlisi i l’exploració de les tendències lingüístiques en articles de notícies. Fa servir tècniques de processament del llenguatge natural amb eines com spaCy, BART i Hugging Face per netejar, resumir i classificar textos de manera estructurada. Els resultats s’emmagatzemen a MongoDB, fet que permet estudiar l’evolució de temes, sentiments i patrons de vocabulari al llarg del temps. La seva arquitectura modular facilita l’ampliació del sistema i el desenvolupament d’anàlisis comparatives més sofisticades sobre el llenguatge als mitjans.",
           "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
           "technologies": [
             "Python",
@@ -154,8 +170,7 @@
             "Tailwind CSS",
             "Google Cloud",
             "OpenAI API"
-          ],
-          "link": "https://project1.enricfitaram.dev/"
+          ]
         }
       ],
       "projects": []

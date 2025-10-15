@@ -51,6 +51,29 @@
   ],
   "experience": [
     {
+      "title": "Technical and automation advisor",
+      "company": "CIBERIN FORESIGHT",
+      "companyLogo": "../img/logo-cibering-cut.png",
+      "contractType": "FP Dual",
+      "periodTime": "ago. 2025 - actual",
+      "location": "Barcelona",
+      "description": "Development and implementation of cloud computing infrastructure to host and deploy databases, frameworks, and AI models, along with the creation of APIs that connect these models to SQL and MongoDB databases, and the development of MVC-based programs for essential business tools.",      "technologies": [
+        "React",
+        "NextJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "i18n",
+        "N8N",
+        "Google Cloud Platform",
+        "SQL",
+        "Ollama",
+        "llama 3.1",
+        "GPT-OSS",
+        "Vercel AI SDK",
+        "OpenAI SDK/API"
+      ]
+    },
+    {
       "title": "Software Developer",
       "company": "GINDUMAC",
       "companyLogo": "../img/gindumac_logo.jpeg",
@@ -91,23 +114,20 @@
     {
       "principal": [
         {
-          "title": "Trending words API/UI",
-          "description": "A platform for developers and businesses to programmatically access and analyze trending words in the news. It features a secure, user-friendly frontend dashboard built with modern web technologies, and a robust backend powered by a Spring Boot API developed in Java. The entire system is containerized with Docker and deployed on Google Cloud, ensuring scalability, maintainability, and ease of access.",
+          "title": "Automatic News Site",
+          "repository":"https://github.com/christianfitaram/automatic-news-site",
+          "description": "A beta version of a news portal built with ASP.NET Core 8, created to test a fully automated publishing workflow. Its purpose is to demonstrate that a fast, efficient, and reliable news site can operate with minimal human supervision, integrating webhooks, external services, and a smart editorial management system. This early phase focuses on optimizing the automated ingestion, cleaning, and distribution of news, paving the way for a more scalable and autonomous platform.",
           "technologies": [
-            "TypeScript",
-            "React",
-            "NextJS",
-            "Tailwind CSS",
-            "Java",
-            "SpringBoot",
+            "C#",
+            ".NET",
             "Docker",
             "GCP"
           ],
           "link": "https://trendapi.enricfitaram.dev/"
         },
         {
-          "title": "Trending words",
-          "description": "A modular NLP platform that scrapes news, classifies content by topic and sentiment using AI models (TensorFlow, spaCy), and analyzes trending nouns. It stores and processes data with MongoDB, offers a prediction pipeline using LSTM models. Designed for scalability and media analysis, it enables real-time insights into language and content trends.",
+          "title": "News Scraper",
+          "description": "Python-based project focused on analysing and exploring linguistic trends in news articles. It applies natural language processing techniques using tools such as spaCy, BART, and Hugging Face to clean, summarise, and classify text in a structured way. The results are stored in MongoDB, enabling the study of topic evolution, sentiment dynamics, and vocabulary patterns over time. Its modular architecture allows easy system expansion and supports more advanced comparative analyses of language in the media.",
           "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
           "technologies": [
             "Python",
@@ -119,7 +139,8 @@
             "Tensor Flow",
             "Machine Learnig",
             "Keras"
-          ]
+          ],
+          "video": ""
         },
         {
           "title": "The Pokemon APP",
@@ -133,7 +154,8 @@
             "Google Cloud",
             "OpenAI API"
           ],
-          "link": "https://project1.enricfitaram.dev/"
+          
+          "video": ""
         }
       ],
       "projects": []

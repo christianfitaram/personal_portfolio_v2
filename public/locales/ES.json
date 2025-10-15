@@ -63,6 +63,29 @@
 
   "experience": [
     {
+      "title": "Consejero Técnico y de automatizacióne",
+      "company": "CIBERIN FORESIGHT",
+      "companyLogo": "../img/logo-cibering-cut.png",
+      "contractType": "FP Dual",
+      "periodTime": "ago. 2025 - actual",
+      "location": "Barcelona",
+      "description": "Desarrollo e implementación de infraestructura de cloud computing para alojar y desplegar bases de datos, frameworks y modelos de inteligencia artificial, junto con la creación de API’s que conectan dichos modelos con bases de datos SQL y MongoDB, y el desarrollo de programas basados en arquitectura MVC para herramientas empresariales necesarias.",   "technologies": [
+        "React",
+        "NextJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "i18n",
+        "N8N",
+        "Google Cloud Platform",
+        "SQL",
+        "Ollama",
+        "llama 3.1",
+        "GPT-OSS",
+        "Vercel AI SDK",
+        "OpenAI SDK/API"
+      ]
+    },
+    {
       "title": "Desarrollador de Software",
       "company": "GINDUMAC",
       "companyLogo": "../img/gindumac_logo.jpeg",
@@ -105,23 +128,20 @@
     {
       "principal": [
         {
-          "title": "Trending words API/UI",
-          "description": "Plataforma para que desarrolladores y empresas accedan y analicen programáticamente palabras en tendencia dentro de noticias. Cuenta con un panel de control seguro y fácil de usar desarrollado con tecnologías web modernas, y un backend robusto impulsado por una API en Spring Boot desarrollada en Java. Todo el sistema está contenerizado con Docker y desplegado en Google Cloud, lo que garantiza escalabilidad, mantenibilidad y fácil acceso.",
-          "technologies": [
-            "TypeScript",
-            "React",
-            "NextJS",
-            "Tailwind CSS",
-            "Java",
-            "SpringBoot",
+          "title": "Automatic News Site",
+          "repository":"https://github.com/christianfitaram/automatic-news-site",
+          "description": "Versión beta de un portal de noticias desarrollado con ASP.NET Core 8, diseñado para probar un flujo completamente automatizado de publicación de artículos. Su propósito es demostrar que es posible mantener un sitio ágil y funcional con mínima supervisión humana, integrando webhooks, servicios externos y un sistema de gestión editorial inteligente. Esta etapa inicial busca optimizar la recepción, limpieza y difusión automática de noticias, preparando el terreno para una plataforma más escalable y autónoma.",
+           "technologies": [
+            "C#",
+            ".NET",
             "Docker",
             "GCP"
           ],
           "link": "https://trendapi.enricfitaram.dev/"
         },
         {
-          "title": "Trending words",
-          "description": "Plataforma modular de NLP que recopila noticias, clasifica el contenido por tema y sentimiento usando modelos de IA (TensorFlow, spaCy) y analiza los sustantivos más relevantes. Almacena y procesa los datos con MongoDB, ofrece una pipeline de predicción basada en modelos LSTM. Diseñada para ser escalable y orientada al análisis mediático, permite obtener insights en tiempo real sobre las tendencias lingüísticas y de contenido.",
+          "title": "News Scraper",
+          "description": "Proyecto en Python enfocado en el análisis y la exploración de tendencias lingüísticas dentro de artículos de noticias. Utiliza técnicas de procesamiento del lenguaje natural con herramientas como spaCy, BART y Hugging Face para limpiar, resumir y clasificar textos de forma estructurada. Los resultados se almacenan en MongoDB, lo que permite estudiar la evolución de temas, sentimientos y patrones de vocabulario a lo largo del tiempo. Su arquitectura modular facilita la ampliación del sistema y el desarrollo de análisis comparativos más sofisticados sobre el lenguaje en los medios.",
           "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
           "technologies": [
             "Python",
@@ -147,8 +167,7 @@
             "Tailwind CSS",
             "Google Cloud",
             "OpenAI API"
-          ],
-          "link": "https://project1.enricfitaram.dev/"
+          ]
         }
       ],
       "projects": []
