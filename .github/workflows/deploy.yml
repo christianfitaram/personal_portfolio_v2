@@ -1,4 +1,4 @@
-name: 🚀 Auto-Deploy to Portfolio VM
+name: 🚀 Auto Deploy to Portfolio VM
 
 on:
   push:
@@ -32,7 +32,9 @@ jobs:
           cd ~/personal_portfolio_v2
           git fetch origin main
           git reset --hard origin/main
+          rm -rf node_modules package-lock.json
           npm install --include=dev
+          npm rebuild lightningcss
           npm run build
           pm2 restart nextjs-app || pm2 start npm --name "nextjs-app" -- run start
           pm2 save
