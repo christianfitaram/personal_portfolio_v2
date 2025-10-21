@@ -6,8 +6,8 @@
   "contactTitle": "Contacte",
   "skillsTitle": "Habilitats tècniques",
   "contact": "Contacte",
-  "description_1": "Solucions web i mòbils amb React, Next.js, Spring Boot i Kotlin.",
-  "description_2": "Amb èmfasi en tecnologies de dades per a aplicacions eficients i escalables.",
+  "description_1": "Soc un desenvolupador de programari amb seu a Barcelona, apassionat per la intel·ligència artificial, el processament de dades i la infraestructura al núvol autogestionada.",
+  "description_2": "Creo sistemes d’IA escalables, motors de cerca basats en vectors i aplicacions full-stack que combinen tecnologies de codi obert amb automatització real.",
   "repository": "Repositori",
   "typewriter": "Hola, sóc Christian",
   "certification": [
@@ -137,15 +137,27 @@
     {
       "principal": [
         {
-          "title": "Automatic News Site",
-          "repository":"https://github.com/christianfitaram/automatic-news-site",
-          "description": "Versió beta d’un portal de notícies desenvolupat amb ASP.NET Core 8, pensat per provar un flux de publicació completament automatitzat. L’objectiu és demostrar que és possible mantenir un lloc web àgil i eficient amb mínima supervisió humana, integrant webhooks, serveis externs i un sistema de gestió editorial intel·ligent. Aquesta fase inicial pretén optimitzar la recepció, neteja i difusió automàtica de notícies, preparant el camí per a una plataforma més escalable i autònoma.",
-          "technologies": ["C#", ".NET", "Docker", "GCP"],
+          "title": "Self-publishing News Site",
+          "repository": "https://github.com/christianfitaram/automatic-news-site",
+          "description": "El backend fa servir intel·ligència artificial per analitzar articles, valorar-ne la importància, agrupar-los en fils d’esdeveniments i publicar textos reescrits amb una veu editorial coherent, tot amb una intervenció humana mínima o inexistent. El frontend ofereix una experiència de lectura ràpida i dinàmica.",
+                  "technologies": [
+            "C#",
+            ".NET",
+            "Docker",
+            "GCP",
+            "Machine Learnig",
+            "LLMs",
+            "PostgreSQL",
+            "NextJs",
+            "TypeScript",
+            "Tailwind CSS",
+            "React"
+          ],
           "link": "https://trendapi.enricfitaram.dev/"
         },
         {
           "title": "News Scraper",
-          "description": "Projecte en Python centrat en l’anàlisi i l’exploració de les tendències lingüístiques en articles de notícies. Fa servir tècniques de processament del llenguatge natural amb eines com spaCy, BART i Hugging Face per netejar, resumir i classificar textos de manera estructurada. Els resultats s’emmagatzemen a MongoDB, fet que permet estudiar l’evolució de temes, sentiments i patrons de vocabulari al llarg del temps. La seva arquitectura modular facilita l’ampliació del sistema i el desenvolupament d’anàlisis comparatives més sofisticades sobre el llenguatge als mitjans.",
+          "description": "Scraper en Python que cerca i extreu contínuament articles de notícies de diverses fonts, neteja, normalitza el contingut, i l’emmagatzema en base de dades especialitzades, proveint dades de qualitat per a models d’IA utilitzats en classificació, resum i publicació automatitzada.",
           "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
           "technologies": [
             "Python",
@@ -156,12 +168,16 @@
             "NLP",
             "Tensor Flow",
             "Machine Learnig",
-            "Keras"
+            "Keras",
+            "MongoDB",
+            "APIs",
+            "SpringBoot",
+            "Java"
           ]
         },
         {
           "title": "The Pokemon APP",
-          "description": "Aplicació web amb temàtica Pokémon que permet als usuaris explorar, cercar i veure informació detallada sobre diversos Pokémon. Inclou components per mostrar cartes de Pokémon, detalls d'evolució i un assistent de xat per a consultes interactives. L'app disposa d'un motor de cerca, seguiment de consultes recents i temes de color basats en tipus. Utilitza tecnologies web modernes per oferir una experiència visualment atractiva i interactiva.",
+          "description": "Aplicació web temàtica de Pokémon que permet explorar, cercar i visualitzar Pokémon amb fitxes detallades, evolucions i un xat amb IA que combina modes de rol i assistent mitjançant eines de context incrustat — oferint una experiència dinàmica i immersiva per als fans de Pokémon.",
           "repository": "https://github.com/christianfitaram/the-pokemon-app",
           "technologies": [
             "React",
@@ -169,7 +185,13 @@
             "TypeScript",
             "Tailwind CSS",
             "Google Cloud",
-            "OpenAI API"
+            "OpenAI API",
+            "Pgvector",
+            "RAG",
+            "AI tools",
+            "Docker",
+            "Redis",
+            "APIs"
           ]
         }
       ],

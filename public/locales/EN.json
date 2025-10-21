@@ -1,4 +1,6 @@
 {
+  "description_1": "I’m a Barcelona-based software developer passionate about artificial intelligence, data processing, and self-hosted cloud infrastructure.",
+  "description_2": "I build scalable AI systems, vector-powered search tools, and full-stack applications that combine open-source technologies with real-world automation.",
   "certification": [
     {
       "title": "C# Developer Path",
@@ -57,7 +59,8 @@
       "contractType": "FP Dual",
       "periodTime": "ago. 2025 - actual",
       "location": "Barcelona",
-      "description": "Development and implementation of cloud computing infrastructure to host and deploy databases, frameworks, and AI models, along with the creation of APIs that connect these models to SQL and MongoDB databases, and the development of MVC-based programs for essential business tools.",      "technologies": [
+      "description": "Development and implementation of cloud computing infrastructure to host and deploy databases, frameworks, and AI models, along with the creation of APIs that connect these models to SQL and MongoDB databases, and the development of MVC-based programs for essential business tools.",
+      "technologies": [
         "React",
         "NextJS",
         "TypeScript",
@@ -80,7 +83,7 @@
       "contractType": "FP Dual",
       "periodTime": "feb. 2025 - jul. 2025 ",
       "location": "Barcelona",
-      "description": "During my internship at GINDUMAC, I worked on full-stack projects using React, Next.js, TypeScript, Python, and cloud tools like GCP and N8N. I contributed to automation workflows that integrated AI to optimize resources and reduce errors, developed intelligent chatbots, recommendation systems, and UI redesigns, gaining hands-on experience in agile development, DevOps, and cross-platform solutions including Android.",
+      "description": "I worked on full-stack projects using React, Next.js, TypeScript, Python, and cloud tools like GCP and N8N. I contributed to automation workflows that integrated AI to optimize resources and reduce errors, developed intelligent chatbots, recommendation systems, and UI redesigns, gaining hands-on experience in agile development, DevOps, and cross-platform solutions.",
       "technologies": [
         "React",
         "NextJS",
@@ -108,26 +111,35 @@
     { "text": "Home", "link": "#home" },
     { "text": "Skills", "link": "#skills" },
     { "text": "Education", "link": "#education" },
-    { "text": "Projects", "link": "#projects" }
+    { "text": "Projects to look at", "link": "#projects" }
   ],
   "projects": [
     {
       "principal": [
         {
-          "title": "Automatic News Site",
-          "repository":"https://github.com/christianfitaram/automatic-news-site",
-          "description": "A beta version of a news portal built with ASP.NET Core 8, created to test a fully automated publishing workflow. Its purpose is to demonstrate that a fast, efficient, and reliable news site can operate with minimal human supervision, integrating webhooks, external services, and a smart editorial management system. This early phase focuses on optimizing the automated ingestion, cleaning, and distribution of news, paving the way for a more scalable and autonomous platform.",
+          "title": "Self-publishing News Site",
+          "repository": "https://github.com/christianfitaram/automatic-news-site",
+          "description": "The backend leverages AI to analyze articles, score their importance, group them into evolving event threads, and publish rewritten pieces in a consistent editorial voice, all with minimal to no human intervention. The frontend delivers a fast, readable news experience with dynamic updates.",
+          "short_description": "AI powered, self-publishing news platform.",
           "technologies": [
             "C#",
             ".NET",
             "Docker",
-            "GCP"
+            "GCP",
+            "Machine Learnig",
+            "LLMs",
+            "PostgreSQL",
+            "NextJs",
+            "TypeScript",
+            "Tailwind CSS",
+            "React"
           ],
           "link": "https://trendapi.enricfitaram.dev/"
         },
         {
           "title": "News Scraper",
-          "description": "Python-based project focused on analysing and exploring linguistic trends in news articles. It applies natural language processing techniques using tools such as spaCy, BART, and Hugging Face to clean, summarise, and classify text in a structured way. The results are stored in MongoDB, enabling the study of topic evolution, sentiment dynamics, and vocabulary patterns over time. Its modular architecture allows easy system expansion and supports more advanced comparative analyses of language in the media.",
+          "description": "A Python-based scraper that continuously inspects and extracts news articles from multiple sources, cleans and normalizes the content, and stores it in a structured database of news and events. Providing high-quality data for AI models used in classification, summarization, and automated publishing.",
+          "short_description": "Automated data-pipeline for news collection",
           "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
           "technologies": [
             "Python",
@@ -138,13 +150,18 @@
             "NLP",
             "Tensor Flow",
             "Machine Learnig",
-            "Keras"
+            "Keras",
+            "MongoDB",
+            "APIs",
+            "SpringBoot",
+            "Java"
           ],
           "video": ""
         },
         {
           "title": "The Pokemon APP",
-          "description": "Pokémon-themed web app letting users explore, search, and view information about various Pokémon. It features components for displaying Pokémon cards, evolution details, and a chat assistant for interactive queries. The app includes a search engine, recently viewed tracking, and type-based color theming. It uses modern web technologies and delivers a visually engaging, interactive experience for Pokémon fans.",
+          "description": "Pokémon-themed web app that lets users explore, search, and view Pokémon with detailed cards, evolutions, and an AI-powered chat that combines role-play and assistant modes using an embedded data base as context tool, offering a dynamic, fast and immersive experience for Pokémon fans.",
+          "short_description": "Pokémon-themed web app",
           "repository": "https://github.com/christianfitaram/the-pokemon-app",
           "technologies": [
             "React",
@@ -152,9 +169,15 @@
             "TypeScript",
             "Tailwind CSS",
             "Google Cloud",
-            "OpenAI API"
+            "OpenAI API",
+            "Pgvector",
+            "RAG",
+            "AI tools",
+            "Docker",
+            "Redis",
+            "APIs"
           ],
-          
+
           "video": ""
         }
       ],

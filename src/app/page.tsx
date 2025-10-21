@@ -9,7 +9,7 @@ import Hero from "./components/Hero";
 export default function Home() {
   return (
     <div className="flex items-start justify-center min-h-screen">
-      <div className="grid grid-cols-1 items-start justify-items-start p-8 pb-20 gap-16 sm:p-20  w-full max-w-6xl">
+      <div className="grid grid-cols-1 items-start justify-items-start p-8 pb-20 gap-16 sm:p-20  w-full max-w-7xl">
         <Navbar />
         <Hero/>
         <Socials />
