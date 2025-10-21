@@ -1,4 +1,4 @@
-name: 🚀 Auto Deploy to Portfolio VM
+name: 🚀 Auto-Deploy to Portfolio VM
 
 on:
   push:
