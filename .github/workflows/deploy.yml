@@ -32,7 +32,7 @@ jobs:
           cd ~/personal_portfolio_v2
           git fetch origin main
           git reset --hard origin/main
-          npm install --omit=dev
+          npm install --include=dev
           npm run build
           pm2 restart nextjs-app || pm2 start npm --name "nextjs-app" -- run start
           pm2 save
