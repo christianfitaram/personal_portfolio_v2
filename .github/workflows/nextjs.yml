@@ -72,6 +72,11 @@ jobs:
         run: |
           LIGHTNINGCSS_VERSION=$(node -p "require('./node_modules/lightningcss/package.json').version")
           npm install --no-save lightningcss-linux-x64-gnu@$LIGHTNINGCSS_VERSION
+      - name: Ensure tailwind oxide Linux binary
+        if: steps.detect-package-manager.outputs.manager == 'npm'
+        run: |
+          OXIDE_VERSION=$(node -p "require('./node_modules/@tailwindcss/oxide/package.json').version")
+          npm install --no-save @tailwindcss/oxide-linux-x64-gnu@$OXIDE_VERSION
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
