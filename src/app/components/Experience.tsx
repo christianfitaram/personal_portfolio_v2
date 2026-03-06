@@ -1,5 +1,6 @@
 "use client";
 import { useLanguage } from "@/context/LanguageContext";
+import { withBasePath } from "@/lib/withBasePath";
 
 export default function Experience() {
   const { translations } = useLanguage();
@@ -10,7 +11,12 @@ export default function Experience() {
       <div className="space-y-6">
         {translations.experience?.map((exp: any, index: number) => (
           <div key={index} className="p-6 bg-[var(--card-experience-element-bg)] rounded-lg shadow-lg flex flex-col md:flex-row items-start">
-            <img src={exp.companyLogo} key={index} alt={exp.company} className="w-16 h-16 rounded-lg object-cover mr-4" />
+            <img
+              src={withBasePath(exp.companyLogo)}
+              key={index}
+              alt={exp.company}
+              className="w-16 h-16 rounded-lg object-cover mr-4"
+            />
             <div className="flex-1">
               <h3 className="text-xl font-semibold">{exp.title} <span className="">at {exp.company}</span></h3>
               <p className="text-sm">{exp.contractType} · {exp.periodTime}</p>

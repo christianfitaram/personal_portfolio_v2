@@ -1,5 +1,6 @@
 "use client";
 import { useLanguage } from "@/context/LanguageContext";
+import { withBasePath } from "@/lib/withBasePath";
 
 export default function Certifications() {
   const { translations } = useLanguage();
@@ -20,7 +21,7 @@ export default function Certifications() {
             >
               <div className="flex items-center justify-center w-24 h-24 bg-white rounded-full p-2">
                 <img
-                  src={cert.img}
+                  src={withBasePath(cert.img)}
                   alt={cert.title}
                   className="max-w-full max-h-16 object-contain"
                 />

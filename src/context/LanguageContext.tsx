@@ -1,5 +1,6 @@
 "use client";
 import { createContext, useContext, useState, useEffect } from "react";
+import { withBasePath } from "@/lib/withBasePath";
 
 // Define the shape of the context
 interface LanguageContextProps {
@@ -21,7 +22,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     async function loadTranslations() {
       try {
-        const response = await fetch(`/locales/${language}.json`);
+        const response = await fetch(withBasePath(`locales/${language}.json`));
         if (!response.ok) throw new Error("Failed to load language file");
         const data = await response.json();
         setTranslations(data);
