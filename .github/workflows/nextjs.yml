@@ -31,6 +31,7 @@ jobs:
     env:
       NPM_CONFIG_INCLUDE: optional
       NPM_CONFIG_OPTIONAL: "true"
+      NEXT_PUBLIC_BASE_PATH: ""
     steps:
       - name: Checkout
         uses: actions/checkout@v4

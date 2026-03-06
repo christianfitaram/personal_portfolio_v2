@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 
-const isGithubActions = process.env.GITHUB_ACTIONS === "true";
-const repositoryName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
-const isUserOrOrgSite = repositoryName.endsWith(".github.io");
+const basePathFromEnv = (process.env.NEXT_PUBLIC_BASE_PATH ?? "").trim();
 const basePath =
-  isGithubActions && repositoryName && !isUserOrOrgSite
-    ? `/${repositoryName}`
-    : "";
+  !basePathFromEnv || basePathFromEnv === "/"
+    ? ""
+    : `/${basePathFromEnv.replace(/^\/+|\/+$/g, "")}`;
 
 const nextConfig: NextConfig = {
   output: "export",
