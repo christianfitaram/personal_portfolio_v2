@@ -1,5 +1,5 @@
 {
-  "description_1": "I’m a Barcelona-based software developer passionate about artificial intelligence, data processing, and self-hosted cloud infrastructure.",
+  "description_1": "I’m a Malmo-based software developer passionate about artificial intelligence, data processing, and self-hosted cloud infrastructure.",
   "description_2": "I build scalable AI systems, vector-powered search tools, and full-stack applications that combine open-source technologies with real-world automation.",
   "certification": [
     {
@@ -27,7 +27,6 @@
       "img": "https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
     }
   ],
-
   "education": [
     {
       "title": "Cross-platform application development",
@@ -48,18 +47,21 @@
       "location": "Barcelona",
       "institution": "EnfocaT Bootcamp",
       "periodTime": "may. 2024 - aug. 2024 ",
-      "technologies": ["C#", ".NET"]
+      "technologies": [
+        "C#",
+        ".NET"
+      ]
     }
   ],
   "experience": [
     {
-      "title": "Technical and automation advisor",
+      "title": "Technical, AI and Automation Advisor",
       "company": "CIBERIN FORESIGHT",
       "companyLogo": "../img/logo-cibering-cut.png",
       "contractType": "FP Dual",
-      "periodTime": "ago. 2025 - actual",
+      "periodTime": "aug. 2025 - feb. 2026",
       "location": "Barcelona",
-      "description": "Development and implementation of cloud computing infrastructure to host and deploy databases, frameworks, and AI models, along with the creation of APIs that connect these models to SQL and MongoDB databases, and the development of MVC-based programs for essential business tools.",
+      "description": "Took full ownership of building and shipping an end-to-end AI platform from scratch, rapidly designing data pipelines, AI agents, and RAG systems to solve real-world problems. Set up and deployed cloud infrastructure, integrated LLMs with SQL and MongoDB via production APIs, and delivered full-stack applications (frontend + backend) to support core business operations in a fast-paced environment.",
       "technologies": [
         "React",
         "NextJS",
@@ -70,7 +72,7 @@
         "Google Cloud Platform",
         "SQL",
         "Ollama",
-        "llama 3.1",
+        "LLMs",
         "GPT-OSS",
         "Vercel AI SDK",
         "OpenAI SDK/API"
@@ -83,7 +85,7 @@
       "contractType": "FP Dual",
       "periodTime": "feb. 2025 - jul. 2025 ",
       "location": "Barcelona",
-      "description": "I worked on full-stack projects using React, Next.js, TypeScript, Python, and cloud tools like GCP and N8N. I contributed to automation workflows that integrated AI to optimize resources and reduce errors, developed intelligent chatbots, recommendation systems, and UI redesigns, gaining hands-on experience in agile development, DevOps, and cross-platform solutions.",
+      "description": "As a paid intern, contributed to full-stack development with a primary focus on frontend, building user-facing features using React, Next.js, and TypeScript. Developed AI-driven workflows, chatbots, and recommendation systems, while collaborating on backend integrations (Python, GCP, AWS) in an agile environment.",
       "technologies": [
         "React",
         "NextJS",
@@ -103,85 +105,76 @@
       "contractType": "Internship (FCT)",
       "periodTime": "oct. 2024 - jan. 2025",
       "location": "Barcelona",
-      "description": "I contributed to the development of a web application designed to collect, analyze, and display real-time data from repeaters and access points deployed across industrial and construction sites, while also enabling remote device configuration and management.",
-      "technologies": ["Python", "FastAPI", "PHP", "Laravel", "Angular"]
+      "description": "Contributed to the development of a web application for monitoring and managing IoT devices (repeaters and access points) across industrial and construction environments. Focused on frontend features, building interfaces to visualize real-time data and enable remote device configuration.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PHP",
+        "Laravel",
+        "Angular"
+      ]
     }
   ],
   "navbar": [
-    { "text": "Home", "link": "#home" },
-    { "text": "Skills", "link": "#skills" },
-    { "text": "Education", "link": "#education" },
-    { "text": "Projects to look at", "link": "#projects" }
+    {
+      "text": "Home",
+      "link": "#home"
+    },
+    {
+      "text": "Skills",
+      "link": "#skills"
+    },
+    {
+      "text": "Education",
+      "link": "#education"
+    },
+    {
+      "text": "Projects to look at",
+      "link": "#projects"
+    }
   ],
   "projects": [
     {
       "principal": [
         {
-          "title": "Self-publishing News Site",
-          "repository": "https://github.com/christianfitaram/automatic-news-site",
-          "description": "The backend leverages AI to analyze articles, score their importance, group them into evolving event threads, and publish rewritten pieces in a consistent editorial voice, all with minimal to no human intervention. The frontend delivers a fast, readable news experience with dynamic updates.",
-          "short_description": "AI powered, self-publishing news platform.",
-          "technologies": [
-            "C#",
-            ".NET",
-            "Docker",
-            "GCP",
-            "Machine Learnig",
-            "LLMs",
-            "PostgreSQL",
-            "NextJs",
-            "TypeScript",
-            "Tailwind CSS",
-            "React"
-          ],
-          "link": "https://trendapi.enricfitaram.dev/"
+          "title": "DeepPolitik",
+          "description": "Full-stack RAG system enabling natural language search over Spanish parliamentary data, combining semantic retrieval (pgvector), keyword search, and LLM-based reranking to return relevant speeches, transcripts, and video timestamps. Implemented entity resolution, deduplication pipelines, and scalable data infrastructure with PostgreSQL, MongoDB, and FastAPI",
+          "short_description": "AI powered search engine for Spanish parliamentary data.",
+          "link": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2zkIMDmeb4X41pNnsT68oR7zmLWE3xeFlj0icY"
         },
         {
-          "title": "News Scraper",
-          "description": "A Python-based scraper that continuously inspects and extracts news articles from multiple sources, cleans and normalizes the content, and stores it in a structured database of news and events. Providing high-quality data for AI models used in classification, summarization, and automated publishing.",
-          "short_description": "Automated data-pipeline for news collection",
-          "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
-          "technologies": [
-            "Python",
-            "Flask",
-            "NLTK",
-            "spaCy",
-            "Pandas",
-            "NLP",
-            "Tensor Flow",
-            "Machine Learnig",
-            "Keras",
-            "MongoDB",
-            "APIs",
-            "SpringBoot",
-            "Java"
-          ],
-          "video": ""
+          "title": "WordAlerts",
+          "description": "AI pipeline for ingesting news and Telegram data, enriching it with NLP/LLMs, and clustering articles into real-world events using vector similarity and HDBSCAN. Designed multi-source ingestion, embedding pipelines, and event assignment systems, exposing results via FastAPI  and full-stack applications (Next.js/NestJS).",
+          "short_description": "Automated event data-pipeline for real-time news and Telegram monitoring with AI enrichment.",
+          "link": "https://www.worldalerts.io/"
         },
         {
-          "title": "The Pokemon APP",
-          "description": "Pokémon-themed web app that lets users explore, search, and view Pokémon with detailed cards, evolutions, and an AI-powered chat that combines role-play and assistant modes using an embedded data base as context tool, offering a dynamic, fast and immersive experience for Pokémon fans.",
-          "short_description": "Pokémon-themed web app",
-          "repository": "https://github.com/christianfitaram/the-pokemon-app",
-          "technologies": [
-            "React",
-            "NextJs",
-            "TypeScript",
-            "Tailwind CSS",
-            "Google Cloud",
-            "OpenAI API",
-            "Pgvector",
-            "RAG",
-            "AI tools",
-            "Docker",
-            "Redis",
-            "APIs"
-          ],
-
-          "video": ""
+          "title": "DeepAgents",
+          "description": "Full-stack platform for creating and deploying customizable AI agents that can be embedded into external applications, enabling intelligent user interactions beyond traditional chat interfaces. The system allows businesses to configure assistants with their own data, define behavior and boundaries, and return structured responses with dynamic UI elements (e.g., forms, flows, actions) instead of plain text",
+          "short_description": "AI agents for intelligent user interactions.",
+          "link": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2ziwxww2KsLupOIv91E6VQcYFhRdUDWlikej72"
         }
       ],
-      "projects": []
+      "open_source": [
+        {
+          "title": "News Ingestion Pipeline",
+          "description": " AI-powered pipeline for scraping, cleaning, and enriching news articles with NLP/LLMs.",
+          "short_description": " AI-powered pipeline for scraping, cleaning, and enriching news articles with NLP/LLMs.",
+          "repository": "https://github.com/christianfitaram/news-scrapper-open"
+        },
+        {
+          "title": "Telegram Ingestion Pipeline",
+          "description": " Transforms Telegram channel data into structured, AI-enriched records for real-time analytics.",
+          "short_description": " Transforms Telegram channel data into structured, AI-enriched records for real-time analytics.",
+          "repository": "https://github.com/christianfitaram/telegram-scrapper-open"
+        },
+        {
+          "title": "Semantic API (Vector Search)",
+          "description": " FastAPI service for embedding-based retrieval and vector similarity search (pgvector).",
+          "short_description": " FastAPI service for embedding-based retrieval and vector similarity search (pgvector).",
+          "repository": "https://github.com/christianfitaram/api-semantic"
+        }
+      ]
     }
   ]
 }

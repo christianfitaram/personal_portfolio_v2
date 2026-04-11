@@ -2,11 +2,12 @@
   "certificationsTitle": "Certificados",
   "educationTitle": "Educación",
   "experienceTitle": "Experiencia",
-  "projectsTitle": "Proyectos",
+  "projectsTitle": "Proyectos Propietarios",
+  "projectsTitleOS": "Proyectos Open Source",
   "contactTitle": "Contacto",
   "skillsTitle": "Habilidades tècnicas",
   "contact": "Contacto",
-  "description_1": "Soy un desarrollador de software con base en Barcelona, apasionado por la inteligencia artificial, el procesamiento de datos y la infraestructura en la nube autogestionada.",
+  "description_1": "Soy un desarrollador de software con base en Malmo, apasionado por la inteligencia artificial, el procesamiento de datos y la infraestructura en la nube autogestionada.",
   "description_2": "Construyo sistemas de IA escalables, motores de búsqueda basados en vectores y aplicaciones full-stack que combinan tecnologías de código abierto con automatización real.",
   "repository": "Repositorio",
   "typewriter": "Hola, Soy Christian",
@@ -36,7 +37,6 @@
       "img": "https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
     }
   ],
-
   "education": [
     {
       "title": "Desarrollo de aplicaciones multiplataforma",
@@ -57,19 +57,21 @@
       "location": "Barcelona",
       "institution": "EnfocaT Bootcamp",
       "periodTime": "may. 2024 - ago. 2024",
-      "technologies": ["C#", ".NET"]
+      "technologies": [
+        "C#",
+        ".NET"
+      ]
     }
   ],
-
   "experience": [
     {
-      "title": "Consejero Técnico y de automatizacióne",
+      "title": "Asesor Técnico, de IA y Automatización",
       "company": "CIBERIN FORESIGHT",
       "companyLogo": "../img/logo-cibering-cut.png",
       "contractType": "FP Dual",
-      "periodTime": "ago. 2025 - actual",
+      "periodTime": "ago. 2025 - feb. 2026",
       "location": "Barcelona",
-      "description": "Desarrollo e implementación de infraestructura de cloud computing para alojar y desplegar bases de datos, frameworks y modelos de inteligencia artificial, junto con la creación de API’s que conectan dichos modelos con bases de datos SQL y MongoDB, y el desarrollo de programas basados en arquitectura MVC para herramientas empresariales necesarias.",
+      "description": "Asumí la responsabilidad completa de construir y lanzar una plataforma de IA de extremo a extremo desde cero, diseñando rápidamente pipelines de datos, agentes de IA y sistemas RAG para resolver problemas del mundo real. Configuré y desplegué infraestructura en la nube, integré LLMs con SQL y MongoDB a través de APIs en producción, y entregué aplicaciones full-stack (frontend + backend) para apoyar las operaciones principales del negocio en un entorno dinámico.",
       "technologies": [
         "React",
         "NextJS",
@@ -93,7 +95,7 @@
       "contractType": "FP Dual",
       "periodTime": "feb. 2025 - jul. 2025",
       "location": "Barcelona",
-      "description": "Durante mis prácticas en GINDUMAC, trabajé en proyectos full-stack con React, Next.js, TypeScript, Python y herramientas en la nube como GCP y N8N. Participé en flujos de automatización que integraban IA para optimizar recursos y reducir errores, desarrollé chatbots inteligentes, sistemas de recomendación y rediseños de UI, adquiriendo experiencia práctica en desarrollo ágil, DevOps y soluciones multiplataforma.",
+      "description": "Como becario remunerado, contribuí al desarrollo full-stack con un enfoque principal en frontend, construyendo funcionalidades orientadas al usuario con React, Next.js y TypeScript. Desarrollé flujos de trabajo impulsados por IA, chatbots y sistemas de recomendación, colaborando en integraciones de backend (Python, GCP, AWS) en un entorno ágil.",
       "technologies": [
         "React",
         "NextJS",
@@ -113,82 +115,76 @@
       "contractType": "FCT",
       "periodTime": "oct. 2024 - ene. 2025",
       "location": "Barcelona",
-      "description": "Contribuí al desarrollo de una aplicación web diseñada para recopilar, analizar y visualizar datos en tiempo real provenientes de repetidores y puntos de acceso instalados en sitios industriales y de construcción, permitiendo además la configuración y gestión remota de los dispositivos.",
-      "technologies": ["Python", "FastAPI", "PHP", "Laravel", "Angular"]
+      "description": "Contribuí al desarrollo de una aplicación web para la monitorización y gestión de dispositivos IoT (repetidores y puntos de acceso) en entornos industriales y de construcción. Me centré en funcionalidades de frontend, construyendo interfaces para visualizar datos en tiempo real y permitir la configuración remota de dispositivos.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PHP",
+        "Laravel",
+        "Angular"
+      ]
     }
   ],
-
   "navbar": [
-    { "text": "Inicio", "link": "#home" },
-    { "text": "Habilidades", "link": "#skills" },
-    { "text": "Educación", "link": "#education" },
-    { "text": "Proyectos", "link": "#projects" }
+    {
+      "text": "Inicio",
+      "link": "#home"
+    },
+    {
+      "text": "Habilidades",
+      "link": "#skills"
+    },
+    {
+      "text": "Educación",
+      "link": "#education"
+    },
+    {
+      "text": "Proyectos",
+      "link": "#projects"
+    }
   ],
-
   "projects": [
     {
       "principal": [
         {
-          "title": "Self-publishing News Site",
-          "repository": "https://github.com/christianfitaram/automatic-news-site",
-          "description": "El backend utiliza inteligencia artificial para analizar artículos, valorar su importancia, agruparlos en hilos de eventos y publicar textos reescritos con una voz editorial coherente, todo con una intervención humana mínima o nula. El frontend ofrece una experiencia de lectura rápida y dinámica.",
-                  "technologies": [
-            "C#",
-            ".NET",
-            "Docker",
-            "GCP",
-            "Machine Learnig",
-            "LLMs",
-            "PostgreSQL",
-            "NextJs",
-            "TypeScript",
-            "Tailwind CSS",
-            "React"
-          ],
-          "link": "https://trendapi.enricfitaram.dev/"
+          "title": "DeepPolitik",
+          "description": "Sistema RAG full-stack que permite búsqueda en lenguaje natural sobre datos parlamentarios españoles, combinando recuperación semántica (pgvector), búsqueda por palabras clave y reordenamiento basado en LLM para devolver discursos, transcripciones y marcas de tiempo de vídeo relevantes. Implementa resolución de entidades, pipelines de deduplicación e infraestructura de datos escalable con PostgreSQL, MongoDB y FastAPI.",
+          "short_description": "Motor de búsqueda con IA para datos parlamentarios españoles.",
+          "link": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2zkIMDmeb4X41pNnsT68oR7zmLWE3xeFlj0icY"
         },
         {
-          "title": "News Scraper",
-          "description": "Scraper basado en Python que busca y extrae de forma continua artículos de noticias desde múltiples fuentes, limpia, normaliza el contenido, y lo almacena en bases de datos especializadas, proveyendo datos de calidad para modelos de IA utilizados en clasificación, resumen y publicación automatizada.",
-          "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
-          "technologies": [
-            "Python",
-            "Flask",
-            "NLTK",
-            "spaCy",
-            "Pandas",
-            "NLP",
-            "Tensor Flow",
-            "Machine Learnig",
-            "Keras",
-            "MongoDB",
-            "APIs",
-            "SpringBoot",
-            "Java"
-          ],
-          "link": "https://github.com/christianfitaram/LanguageTrendExplorer"
+          "title": "WordAlerts",
+          "description": "Pipeline de IA para ingerir noticias y datos de Telegram, enriquecerlos con NLP/LLMs y agrupar artículos en eventos del mundo real mediante similitud vectorial y HDBSCAN. Diseña sistemas de ingestión multifuente, pipelines de embeddings y asignación de eventos, exponiendo los resultados a través de FastAPI y aplicaciones full-stack (Next.js/NestJS).",
+          "short_description": "Pipeline de datos de eventos automatizado para monitoreo en tiempo real de noticias y Telegram con enriquecimiento de IA.",
+          "link": "https://www.worldalerts.io/"
         },
         {
-          "title": "The Pokemon APP",
-          "description": "Aplicación web inspirada en Pokémon que permite explorar, buscar y visualizar Pokémon con fichas detalladas, evoluciones y un chat con IA que combina modos de rol y asistente mediante herramientas de contexto embebido, ofreciendo una experiencia dinámica e inmersiva para los fans de Pokémon.",
-          "repository": "https://github.com/christianfitaram/the-pokemon-app",
-                    "technologies": [
-            "React",
-            "NextJs",
-            "TypeScript",
-            "Tailwind CSS",
-            "Google Cloud",
-            "OpenAI API",
-            "Pgvector",
-            "RAG",
-            "AI tools",
-            "Docker",
-            "Redis",
-            "APIs"
-          ]
+          "title": "DeepAgents",
+          "description": "Plataforma full-stack para crear y desplegar agentes de IA personalizables que pueden integrarse en aplicaciones externas, permitiendo interacciones inteligentes con usuarios más allá de las interfaces de chat tradicionales. El sistema permite a las empresas configurar asistentes con sus propios datos, definir comportamientos y límites, y devolver respuestas estructuradas con elementos de interfaz dinámicos (por ejemplo, formularios, flujos, acciones) en lugar de texto plano.",
+          "short_description": "Agentes de IA para interacciones inteligentes con usuarios.",
+          "link": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2ziwxww2KsLupOIv91E6VQcYFhRdUDWlikej72"
         }
       ],
-      "projects": []
+      "open_source": [
+        {
+          "title": "Pipeline de Ingestión de Noticias",
+          "description": "Pipeline impulsado por IA para extraer, limpiar y enriquecer artículos de noticias con NLP/LLMs.",
+          "short_description": "Pipeline impulsado por IA para extraer, limpiar y enriquecer artículos de noticias con NLP/LLMs.",
+          "repository": "https://github.com/christianfitaram/news-scrapper-open"
+        },
+        {
+          "title": "Pipeline de Ingestión de Telegram",
+          "description": "Transforma datos de canales de Telegram en registros estructurados y enriquecidos con IA para análisis en tiempo real.",
+          "short_description": "Transforma datos de canales de Telegram en registros estructurados y enriquecidos con IA para análisis en tiempo real.",
+          "repository": "https://github.com/christianfitaram/telegram-scrapper-open"
+        },
+        {
+          "title": "API Semántica (Búsqueda Vectorial)",
+          "description": "Servicio FastAPI para recuperación basada en embeddings y búsqueda de similitud vectorial (pgvector).",
+          "short_description": "Servicio FastAPI para recuperación basada en embeddings y búsqueda de similitud vectorial (pgvector).",
+          "repository": "https://github.com/christianfitaram/api-semantic"
+        }
+      ]
     }
   ]
 }

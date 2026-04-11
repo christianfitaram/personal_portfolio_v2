@@ -1,10 +1,10 @@
 import Navbar from "@/app/components/Navbar";
-import Carrousel from "@/app/components/Carrousel";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Socials from "./components/Socials";
 import Hero from "./components/Hero";
+import ProjectsOS from "./components/ProjectsOS";
 
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
         <Hero />
         <Socials />
         {/*<Carrousel /> */}
+        <ProjectsOS />
         <Projects />
         <Experience />
         <Education />

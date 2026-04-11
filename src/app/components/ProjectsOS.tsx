@@ -12,7 +12,7 @@ interface ProjectItem {
   video?: string;
 }
 
-export default function Projects() {
+export default function ProjectsOS() {
   const { translations } = useLanguage();
   const [projectData, setProjectData] = useState<ProjectItem[]>([]);
   const [loading, setLoading] = useState(true); // Loading state
@@ -21,7 +21,7 @@ export default function Projects() {
     setLoading(true); // Start loading
     if (translations.projects && translations.projects.length > 0) {
       setTimeout(() => {
-        setProjectData(translations.projects[0].principal || []);
+        setProjectData(translations.projects[0].open_source || []);
         setLoading(false); // Stop loading once data is set
       }); // Simulate loading delay
     }
@@ -31,7 +31,7 @@ export default function Projects() {
     <section id="projects" className="w-full mx-auto">
       <div className="mb-4">
         <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-          {translations.projectsTitle || "Propietary Projects"}
+          {translations.projectsTitleOS || "Open-Source Projects"}
         </code>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">

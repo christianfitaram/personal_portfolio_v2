@@ -2,11 +2,12 @@
   "certificationsTitle": "Certificats",
   "educationTitle": "Educació",
   "experienceTitle": "Experiència",
-  "projectsTitle": "Projectes",
+  "projectsTitle": "Projectes Propietaris",
+  "projectsTitleOS": "Projectes Open-Source",
   "contactTitle": "Contacte",
   "skillsTitle": "Habilitats tècniques",
   "contact": "Contacte",
-  "description_1": "Soc un desenvolupador de programari amb seu a Barcelona, apassionat per la intel·ligència artificial, el processament de dades i la infraestructura al núvol autogestionada.",
+  "description_1": "Soc un desenvolupador de programari amb seu a Malmo, apassionat per la intel·ligència artificial, el processament de dades i la infraestructura al núvol autogestionada.",
   "description_2": "Creo sistemes d’IA escalables, motors de cerca basats en vectors i aplicacions full-stack que combinen tecnologies de codi obert amb automatització real.",
   "repository": "Repositori",
   "typewriter": "Hola, sóc Christian",
@@ -56,18 +57,21 @@
       "location": "Barcelona",
       "institution": "EnfocaT Bootcamp",
       "periodTime": "may. 2024 - aug. 2024 ",
-      "technologies": ["C#", ".NET"]
+      "technologies": [
+        "C#",
+        ".NET"
+      ]
     }
   ],
   "experience": [
     {
-      "title": "Conseller tècnic i d'automatització",
+      "title": "Assessor Tècnic, d'IA i Automatització",
       "company": "CIBERIN FORESIGHT",
       "companyLogo": "../img/logo-cibering-cut.png",
       "contractType": "FP Dual",
       "periodTime": "ago. 2025 - actual",
       "location": "Barcelona",
-      "description": "Desenvolupament i implementació d’infraestructura de cloud computing per allotjar i desplegar bases de dades, frameworks i models d’intel·ligència artificial, juntament amb la creació d’API’s que connecten aquests models amb bases de dades SQL i MongoDB, i el desenvolupament de programes basats en arquitectura MVC per a les eines empresarials necessàries.",
+      "description": "Vaig assumir la responsabilitat completa de construir i llançar una plataforma d'IA d'extrem a extrem des de zero, dissenyant ràpidament pipelines de dades, agents d'IA i sistemes RAG per resoldre problemes del món real. Vaig configurar i desplegar infraestructura al núvol, integrar LLMs amb SQL i MongoDB a través d'APIs en producció, i lliurar aplicacions full-stack (frontend + backend) per donar suport a les operacions principals del negoci en un entorn dinàmic.",
       "technologies": [
         "React",
         "NextJS",
@@ -91,7 +95,7 @@
       "contractType": "FP Dual",
       "periodTime": "feb. 2025 - jul. 2025 ",
       "location": "Barcelona",
-      "description": "Durant la meva estada a GINDUMAC, vaig treballar en projectes full-stack utilitzant React, Next.js, TypeScript, Python i eines al núvol com GCP i N8N. Vaig contribuir a fluxos de treball automatitzats que integraven IA per optimitzar recursos i reduir errors, desenvolupant xatbots intel·ligents, sistemes de recomanació i redissenys d'interfícies. Vaig adquirir experiència pràctica en desenvolupament àgil, DevOps i solucions multiplataforma incloent Android.",
+      "description": "Com a becari remunerat, vaig contribuir al desenvolupament full-stack amb un enfocament principal en frontend, construint funcionalitats orientades a l'usuari amb React, Next.js i TypeScript. Vaig desenvolupar fluxos de treball impulsats per IA, chatbots i sistemes de recomanació, col·laborant en integracions de backend (Python, GCP, AWS) en un entorn àgil.",
       "technologies": [
         "React",
         "NextJS",
@@ -111,8 +115,14 @@
       "contractType": "Internship (FCT)",
       "periodTime": "oct. 2024 - jan. 2025",
       "location": "Barcelona",
-      "description": "Vaig contribuir al desenvolupament d'una aplicació web dissenyada per recopilar, analitzar i mostrar dades en temps real de repetidors i punts d'accés desplegats en entorns industrials i de construcció, permetent també la configuració i gestió remota dels dispositius.",
-      "technologies": ["Python", "FastAPI", "PHP", "Laravel", "Angular"]
+      "description": "Vaig contribuir al desenvolupament d'una aplicació web per a la monitorització i gestió de dispositius IoT (repetidors i punts d'accés) en entorns industrials i de construcció. Em vaig centrar en funcionalitats de frontend, construint interfícies per visualitzar dades en temps real i permetre la configuració remota de dispositius.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PHP",
+        "Laravel",
+        "Angular"
+      ]
     }
   ],
   "navbar": [
@@ -137,65 +147,44 @@
     {
       "principal": [
         {
-          "title": "Self-publishing News Site",
-          "repository": "https://github.com/christianfitaram/automatic-news-site",
-          "description": "El backend fa servir intel·ligència artificial per analitzar articles, valorar-ne la importància, agrupar-los en fils d’esdeveniments i publicar textos reescrits amb una veu editorial coherent, tot amb una intervenció humana mínima o inexistent. El frontend ofereix una experiència de lectura ràpida i dinàmica.",
-                  "technologies": [
-            "C#",
-            ".NET",
-            "Docker",
-            "GCP",
-            "Machine Learnig",
-            "LLMs",
-            "PostgreSQL",
-            "NextJs",
-            "TypeScript",
-            "Tailwind CSS",
-            "React"
-          ],
-          "link": "https://trendapi.enricfitaram.dev/"
+          "title": "DeepPolitik",
+          "description": "Sistema RAG full-stack que permet la cerca en llenguatge natural sobre dades parlamentàries espanyoles, combinant recuperació semàntica (pgvector), cerca per paraules clau i reordenament basat en LLM per retornar discursos, transcripcions i marques de temps de vídeo rellevants. Implementa resolució d'entitats, pipelines de deduplicació i infraestructura de dades escalable amb PostgreSQL, MongoDB i FastAPI.",
+          "short_description": "Motor de cerca amb IA per a dades parlamentàries espanyoles.",
+          "link": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2zkIMDmeb4X41pNnsT68oR7zmLWE3xeFlj0icY"
         },
         {
-          "title": "News Scraper",
-          "description": "Scraper en Python que cerca i extreu contínuament articles de notícies de diverses fonts, neteja, normalitza el contingut, i l’emmagatzema en base de dades especialitzades, proveint dades de qualitat per a models d’IA utilitzats en classificació, resum i publicació automatitzada.",
-          "repository": "https://github.com/christianfitaram/LanguageTrendExplorer",
-          "technologies": [
-            "Python",
-            "Flask",
-            "NLTK",
-            "spaCy",
-            "Pandas",
-            "NLP",
-            "Tensor Flow",
-            "Machine Learnig",
-            "Keras",
-            "MongoDB",
-            "APIs",
-            "SpringBoot",
-            "Java"
-          ]
+          "title": "WordAlerts",
+          "description": "Pipeline d'IA per ingerir notícies i dades de Telegram, enriquir-les amb NLP/LLMs i agrupar articles en esdeveniments del món real mitjançant similitud vectorial i HDBSCAN. Dissenya sistemes d'ingestió multifont, pipelines d'embeddings i assignació d'esdeveniments, exposant els resultats a través de FastAPI i aplicacions full-stack (Next.js/NestJS).",
+          "short_description": "Pipeline de dades d'esdeveniments automatitzat per al monitoratge en temps real de notícies i Telegram amb enriquiment d'IA.",
+          "link": "https://www.worldalerts.io/"
         },
         {
-          "title": "The Pokemon APP",
-          "description": "Aplicació web temàtica de Pokémon que permet explorar, cercar i visualitzar Pokémon amb fitxes detallades, evolucions i un xat amb IA que combina modes de rol i assistent mitjançant eines de context incrustat — oferint una experiència dinàmica i immersiva per als fans de Pokémon.",
-          "repository": "https://github.com/christianfitaram/the-pokemon-app",
-          "technologies": [
-            "React",
-            "NextJs",
-            "TypeScript",
-            "Tailwind CSS",
-            "Google Cloud",
-            "OpenAI API",
-            "Pgvector",
-            "RAG",
-            "AI tools",
-            "Docker",
-            "Redis",
-            "APIs"
-          ]
+          "title": "DeepAgents",
+          "description": "Plataforma full-stack per crear i desplegar agents d'IA personalitzables que es poden integrar en aplicacions externes, permetent interaccions intel·ligents amb usuaris més enllà de les interfícies de xat tradicionals. El sistema permet a les empreses configurar assistents amb les seves pròpies dades, definir comportaments i límits, i retornar respostes estructurades amb elements d'interfície dinàmics (per exemple, formularis, fluxos, accions) en lloc de text pla.",
+          "short_description": "Agents d'IA per a interaccions intel·ligents amb usuaris.",
+          "link": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2ziwxww2KsLupOIv91E6VQcYFhRdUDWlikej72"
         }
       ],
-      "projects": []
+      "open_source": [
+        {
+          "title": "Pipeline d'Ingestió de Notícies",
+          "description": "Pipeline impulsat per IA per extreure, netejar i enriquir articles de notícies amb NLP/LLMs.",
+          "short_description": "Pipeline impulsat per IA per extreure, netejar i enriquir articles de notícies amb NLP/LLMs.",
+          "repository": "https://github.com/christianfitaram/news-scrapper-open"
+        },
+        {
+          "title": "Pipeline d'Ingestió de Telegram",
+          "description": "Transforma dades de canals de Telegram en registres estructurats i enriquits amb IA per a l'anàlisi en temps real.",
+          "short_description": "Transforma dades de canals de Telegram en registres estructurats i enriquits amb IA per a l'anàlisi en temps real.",
+          "repository": "https://github.com/christianfitaram/telegram-scrapper-open"
+        },
+        {
+          "title": "API Semàntica (Cerca Vectorial)",
+          "description": "Servei FastAPI per a la recuperació basada en embeddings i la cerca de similitud vectorial (pgvector).",
+          "short_description": "Servei FastAPI per a la recuperació basada en embeddings i la cerca de similitud vectorial (pgvector).",
+          "repository": "https://github.com/christianfitaram/api-semantic"
+        }
+      ]
     }
   ]
 }
