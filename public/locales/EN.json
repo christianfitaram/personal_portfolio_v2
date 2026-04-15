@@ -173,6 +173,13 @@
           "description": " FastAPI service for embedding-based retrieval and vector similarity search (pgvector).",
           "short_description": " FastAPI service for embedding-based retrieval and vector similarity search (pgvector).",
           "repository": "https://github.com/christianfitaram/api-semantic"
+        },
+        {
+          "title": "The Pokemon App",
+          "description": "Full-stack application focused on performance and reliability. Implemented API security, caching strategies, and tested backend services",
+          "short_description": "The Pokemon App",
+          "repository": "https://github.com/christianfitaram/the-pokemon-app",
+          "link": "https://project1.enricfitaram.dev/"
         }
       ]
     }

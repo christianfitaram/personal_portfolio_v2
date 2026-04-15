@@ -183,6 +183,13 @@
           "description": "Servei FastAPI per a la recuperació basada en embeddings i la cerca de similitud vectorial (pgvector).",
           "short_description": "Servei FastAPI per a la recuperació basada en embeddings i la cerca de similitud vectorial (pgvector).",
           "repository": "https://github.com/christianfitaram/api-semantic"
+        },
+        {
+          "title": "The Pokemon App",
+          "description": "Aplicació full-stack centrada en el rendiment i la fiabilitat. Implementa seguretat a l’API, estratègies de memòria cau i serveis backend testejats",
+          "short_description": "The Pokemon App",
+          "repository": "https://github.com/christianfitaram/the-pokemon-app",
+          "link": "https://project1.enricfitaram.dev/"
         }
       ]
     }

@@ -34,7 +34,7 @@ export default function ProjectsOS() {
           {translations.projectsTitleOS || "Open-Source Projects"}
         </code>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-6">
         {loading ? (
           Array(3)
             .fill(null)
