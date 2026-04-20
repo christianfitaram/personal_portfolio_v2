@@ -160,13 +160,13 @@
           "title": "News Ingestion Pipeline",
           "description": " AI-powered pipeline for scraping, cleaning, and enriching news articles with NLP/LLMs.",
           "short_description": " AI-powered pipeline for scraping, cleaning, and enriching news articles with NLP/LLMs.",
-          "repository": "https://github.com/christianfitaram/news-scrapper-open"
+          "repository": "https://github.com/christianfitaram/news-scraper-open"
         },
         {
           "title": "Telegram Ingestion Pipeline",
           "description": " Transforms Telegram channel data into structured, AI-enriched records for real-time analytics.",
           "short_description": " Transforms Telegram channel data into structured, AI-enriched records for real-time analytics.",
-          "repository": "https://github.com/christianfitaram/telegram-scrapper-open"
+          "repository": "https://github.com/christianfitaram/telegram-scraper-open"
         },
         {
           "title": "Semantic API (Vector Search)",

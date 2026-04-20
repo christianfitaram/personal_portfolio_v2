@@ -170,13 +170,13 @@
           "title": "Pipeline d'Ingestió de Notícies",
           "description": "Pipeline impulsat per IA per extreure, netejar i enriquir articles de notícies amb NLP/LLMs.",
           "short_description": "Pipeline impulsat per IA per extreure, netejar i enriquir articles de notícies amb NLP/LLMs.",
-          "repository": "https://github.com/christianfitaram/news-scrapper-open"
+          "repository": "https://github.com/christianfitaram/news-scraper-open"
         },
         {
           "title": "Pipeline d'Ingestió de Telegram",
           "description": "Transforma dades de canals de Telegram en registres estructurats i enriquits amb IA per a l'anàlisi en temps real.",
           "short_description": "Transforma dades de canals de Telegram en registres estructurats i enriquits amb IA per a l'anàlisi en temps real.",
-          "repository": "https://github.com/christianfitaram/telegram-scrapper-open"
+          "repository": "https://github.com/christianfitaram/telegram-scraper-open"
         },
         {
           "title": "API Semàntica (Cerca Vectorial)",
