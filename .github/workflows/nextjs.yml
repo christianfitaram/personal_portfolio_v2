@@ -5,9 +5,12 @@
 name: Deploy Next.js site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
+  # Deploys are published from the `gh-pages` branch via `npm run deploy`
+  # instead, so this workflow no longer runs on push. Re-add the `push`
+  # trigger below to switch back to Actions-based deploys.
+  #
+  # push:
+  #   branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,7 +34,9 @@ jobs:
     env:
       NPM_CONFIG_INCLUDE: optional
       NPM_CONFIG_OPTIONAL: "true"
-      NEXT_PUBLIC_BASE_PATH: ""
+      # GitHub Pages serves this project site from /<repo>/, so the export must
+      # be built with that base path or every /_next/* asset 404s at the root.
+      NEXT_PUBLIC_BASE_PATH: "/${{ github.event.repository.name }}"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
