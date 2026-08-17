@@ -6,25 +6,41 @@ export default function Experience() {
   const { translations } = useLanguage();
 
   return (
-    <div className=" bg-[var(--card-experience-bg)] py-10 px-5 md:px-20 rounded  shadow-md hover:shadow-lg transition-all ">
-      <h2 className="text-3xl font-bold mb-6">{translations.experienceTitle || "Experience"}</h2>
-      <div className="space-y-6">
+    <div>
+      <h2 className="text-[28px] font-extrabold mb-6">
+        {translations.experienceTitle || "Experience"}
+      </h2>
+      <div className="flex flex-col gap-[18px]">
         {translations.experience?.map((exp: any, index: number) => (
-          <div key={index} className="p-6 bg-[var(--card-experience-element-bg)] rounded-lg shadow-lg flex flex-col md:flex-row items-start">
+          <div
+            key={index}
+            className="bg-[var(--card-experience-bg)] border border-[var(--border-color)] rounded-2xl p-[26px] flex gap-5 items-start flex-wrap"
+          >
             <img
               src={withBasePath(exp.companyLogo)}
-              key={index}
               alt={exp.company}
-              className="w-16 h-16 rounded-lg object-cover mr-4"
+              style={{ backgroundColor: exp.logoBg || "#ffffff" }}
+              className="w-14 h-14 rounded-xl object-contain p-2 flex-shrink-0"
             />
-            <div className="flex-1">
-              <h3 className="text-xl font-semibold">{exp.title} <span className="">at {exp.company}</span></h3>
-              <p className="text-sm">{exp.contractType} · {exp.periodTime}</p>
-              <p className="text-sm">{exp.location}</p>
-              <p className="mt-2">{exp.description}</p>
-              <div className="mt-3 flex flex-wrap gap-2">
+            <div className="flex-1 min-w-[240px] flex flex-col gap-2">
+              <h3 className="text-lg font-bold">
+                {exp.title}{" "}
+                <span className="text-[var(--fg-muted)] font-medium">
+                  &middot; {exp.company}
+                </span>
+              </h3>
+              <p className="text-[13px] text-[var(--fg-muted)] font-[family-name:var(--font-geist-mono)]">
+                {exp.contractType} &middot; {exp.periodTime} &middot; {exp.location}
+              </p>
+              <p className="mt-1 text-[15px] leading-[1.6]">{exp.description}</p>
+              <div className="flex flex-wrap gap-2 mt-2">
                 {exp.technologies.map((tech: string, i: number) => (
-                  <span key={i} className="bg-gray-700 text-gray-100 text-sm px-3 py-1 rounded-full">{tech}</span>
+                  <span
+                    key={i}
+                    className="bg-[var(--bg-alt2)] text-[var(--fg-muted)] text-xs px-[11px] py-[5px] rounded-full font-[family-name:var(--font-geist-mono)]"
+                  >
+                    {tech}
+                  </span>
                 ))}
               </div>
             </div>

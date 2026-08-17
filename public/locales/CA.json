@@ -7,10 +7,17 @@
   "contactTitle": "Contacte",
   "skillsTitle": "Habilitats tècniques",
   "contact": "Contacte",
-  "description_1": "Soc un desenvolupador de programari amb seu a Malmo, apassionat per la intel·ligència artificial, el processament de dades i la infraestructura al núvol autogestionada.",
+  "description_1": "Soc un desenvolupador de programari amb seu a Barcelona, apassionat per la intel·ligència artificial, el processament de dades i la infraestructura al núvol autogestionada.",
   "description_2": "Creo sistemes d’IA escalables, motors de cerca basats en vectors i aplicacions full-stack que combinen tecnologies de codi obert amb automatització real.",
   "repository": "Repositori",
+  "liveDemo": "Demo",
+  "watchDemo": "Veure demo",
+  "visitSite": "Visitar lloc",
   "typewriter": "Hola, sóc Christian",
+  "navHome": "Inici",
+  "navProjects": "Projectes",
+  "navExperience": "Experiència",
+  "navEducation": "Educació",
   "certification": [
     {
       "title": "MongoDB C# Developer Path",
@@ -68,6 +75,7 @@
       "title": "Assessor Tècnic, d'IA i Automatització",
       "company": "CIBERIN FORESIGHT",
       "companyLogo": "../img/logo-cibering-cut.png",
+      "logoBg": "#111318",
       "contractType": "FP Dual",
       "periodTime": "ago. 2025 - actual",
       "location": "Barcelona",
@@ -150,19 +158,22 @@
           "title": "DeepPolitik",
           "description": "Sistema RAG full-stack que permet la cerca en llenguatge natural sobre dades parlamentàries espanyoles, combinant recuperació semàntica (pgvector), cerca per paraules clau i reordenament basat en LLM per retornar discursos, transcripcions i marques de temps de vídeo rellevants. Implementa resolució d'entitats, pipelines de deduplicació i infraestructura de dades escalable amb PostgreSQL, MongoDB i FastAPI.",
           "short_description": "Motor de cerca amb IA per a dades parlamentàries espanyoles.",
-          "link": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2zkIMDmeb4X41pNnsT68oR7zmLWE3xeFlj0icY"
+          "demoType": "video",
+          "videoUrl": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2zkIMDmeb4X41pNnsT68oR7zmLWE3xeFlj0icY"
         },
         {
           "title": "WordAlerts",
           "description": "Pipeline d'IA per ingerir notícies i dades de Telegram, enriquir-les amb NLP/LLMs i agrupar articles en esdeveniments del món real mitjançant similitud vectorial i HDBSCAN. Dissenya sistemes d'ingestió multifont, pipelines d'embeddings i assignació d'esdeveniments, exposant els resultats a través de FastAPI i aplicacions full-stack (Next.js/NestJS).",
           "short_description": "Pipeline de dades d'esdeveniments automatitzat per al monitoratge en temps real de notícies i Telegram amb enriquiment d'IA.",
-          "link": "https://www.worldalerts.io/"
+          "demoType": "site",
+          "siteUrl": "https://www.worldalerts.io/"
         },
         {
           "title": "DeepAgents",
           "description": "Plataforma full-stack per crear i desplegar agents d'IA personalitzables que es poden integrar en aplicacions externes, permetent interaccions intel·ligents amb usuaris més enllà de les interfícies de xat tradicionals. El sistema permet a les empreses configurar assistents amb les seves pròpies dades, definir comportaments i límits, i retornar respostes estructurades amb elements d'interfície dinàmics (per exemple, formularis, fluxos, accions) en lloc de text pla.",
           "short_description": "Agents d'IA per a interaccions intel·ligents amb usuaris.",
-          "link": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2ziwxww2KsLupOIv91E6VQcYFhRdUDWlikej72"
+          "demoType": "video",
+          "videoUrl": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2ziwxww2KsLupOIv91E6VQcYFhRdUDWlikej72"
         }
       ],
       "open_source": [

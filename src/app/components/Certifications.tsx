@@ -6,35 +6,29 @@ export default function Certifications() {
   const { translations } = useLanguage();
 
   return (
-    <>
-      <h2 className="text-3xl font-bold flex items-center justify-center">
-        {translations.certificationsTitle || "Certificates"}
-      </h2>
-      <div className="bg-transparet py-10 px-5 md:px-20">
-        <div className="flex flex-col justify-between gap-6">
-          {translations.certification?.map((cert: any, index: number) => (
-            <div
-            onClick={() => window.open(
-              cert.link, "_blank")}
-              key={index}
-              className="bg-[var(--card-certification-element-bg)] pr-6 rounded-full shadow-lg gap-2 w-fit flex flex-row items-center text-start transition-transform transform hover:scale-105 hover:shadow-xl cursor-pointer"
-            >
-              <div className="flex items-center justify-center w-24 h-24 bg-white rounded-full p-2">
-                <img
-                  src={withBasePath(cert.img)}
-                  alt={cert.title}
-                  className="max-w-full max-h-16 object-contain"
-                />
-              </div>
-              <div className="flex flex-col">
-                <h3 className="text-lg font-semibold">{cert.title}</h3>
-                <p className="text-sm text-[var(--text-secondary)]">{cert.issuer}</p>
-                <p className="text-xs text-[var(--text-secondary)]">{cert.date}</p>
-              </div>
-            </div>
-          ))}
+    <div className="flex flex-col gap-3.5">
+      {translations.certification?.map((cert: any, index: number) => (
+        <div
+          key={index}
+          onClick={() => window.open(cert.link, "_blank")}
+          className="cursor-pointer bg-[var(--card-certification-bg)] border border-[var(--border-color)] rounded-xl px-5 py-3.5 flex items-center gap-4 hover:border-[var(--foreground)] transition-colors"
+        >
+          <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center flex-shrink-0 p-1.5">
+            <img
+              src={withBasePath(cert.img)}
+              alt={cert.title}
+              className="max-w-full max-h-full object-contain"
+            />
+          </div>
+          <div className="flex flex-col gap-0.5">
+            <span className="text-[15px] font-bold">{cert.title}</span>
+            <span className="text-[13px] text-[var(--fg-muted)]">{cert.issuer}</span>
+            <span className="text-xs text-[var(--fg-muted)] font-[family-name:var(--font-geist-mono)]">
+              {cert.date}
+            </span>
+          </div>
         </div>
-      </div>
-    </>
+      ))}
+    </div>
   );
 }

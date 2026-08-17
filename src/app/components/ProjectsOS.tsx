@@ -1,113 +1,81 @@
 "use client";
 import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useState } from "react";
-import { FaGithub } from "react-icons/fa";
 
 interface ProjectItem {
   title: string;
   description: string;
   repository: string;
-  technologies: string[];
   link?: string;
-  video?: string;
 }
 
 export default function ProjectsOS() {
   const { translations } = useLanguage();
   const [projectData, setProjectData] = useState<ProjectItem[]>([]);
-  const [loading, setLoading] = useState(true); // Loading state
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true); // Start loading
+    setLoading(true);
     if (translations.projects && translations.projects.length > 0) {
       setTimeout(() => {
         setProjectData(translations.projects[0].open_source || []);
-        setLoading(false); // Stop loading once data is set
-      }); // Simulate loading delay
+        setLoading(false);
+      });
     }
   }, [translations]);
 
   return (
-    <section id="projects" className="w-full mx-auto">
-      <div className="mb-4">
-        <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-          {translations.projectsTitleOS || "Open-Source Projects"}
-        </code>
+    <div>
+      <div className="font-[family-name:var(--font-geist-mono)] text-[13px] font-medium text-[var(--fg-muted)] uppercase tracking-[0.06em] mb-5">
+        {translations.projectsTitleOS || "Open-Source Projects"}
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-6">
-        {loading ? (
-          Array(3)
-            .fill(null)
-            .map((_, index) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        {loading
+          ? Array(4)
+              .fill(null)
+              .map((_, index) => (
+                <div
+                  key={index}
+                  className="bg-[var(--card-projects-bg)] border border-[var(--border-color)] rounded-2xl p-[22px] animate-pulse h-48 flex flex-col justify-between"
+                >
+                  <div className="h-6 bg-[var(--bg-alt2)] rounded w-3/4"></div>
+                  <div className="h-4 bg-[var(--bg-alt2)] rounded w-5/6 mt-2"></div>
+                  <div className="h-4 bg-[var(--bg-alt2)] rounded w-4/6 mt-2"></div>
+                  <div className="h-6 bg-[var(--bg-alt2)] rounded w-full mt-auto"></div>
+                </div>
+              ))
+          : projectData.map((project, index) => (
               <div
                 key={index}
-                className="bg-gray-800 rounded-lg p-6 shadow-md animate-pulse h-56 flex flex-col justify-between"
+                className="bg-[var(--card-projects-bg)] border border-[var(--border-color)] rounded-2xl p-[22px] flex flex-col gap-3 hover:border-[var(--foreground)] transition-colors"
               >
-                <div className="h-6 bg-gray-700 rounded w-3/4"></div>
-                <div className="h-4 bg-gray-700 rounded w-5/6 mt-2"></div>
-                <div className="h-4 bg-gray-700 rounded w-4/6 mt-2"></div>
-                <div className="h-6 bg-gray-700 rounded w-full mt-auto"></div>
-              </div>
-            ))
-        ) : projectData.length > 0 ? (
-          projectData.map((project, index) => (
-            <div
-              key={index}
-              className="bg-[var(--card-projects-bg)] rounded-lg p-6 shadow-md hover:shadow-lg transition-all w-full max-w-full overflow-hidden flex flex-col gap-6 lg:flex-row lg:items-stretch h-full"
-            >
-              <div className="flex-1 flex flex-col min-w-0">
-                <h3 className="text-xl font-semibold">{project.title}</h3>
-                <p className="mt-2 mb-4  break-words leading-relaxed">
+                <h3 className="text-[17px] font-bold">{project.title}</h3>
+                <p className="text-[var(--fg-muted)] leading-[1.55] text-sm flex-1">
                   {project.description}
                 </p>
-
-                {(project.repository || project.link) && (
-                  <div className="mt-auto pt-4 border-t border-gray-600 flex items-center gap-3">
-                    {project.repository && (
-                      <a
-                        href={project.repository}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 hover:underline"
-                      >
-                        <FaGithub className="transition duration-300" />
-                        {translations.repository || "Repository"}
-                      </a>
-                    )}
-                    {project.link && (
-                      <a
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:underline break-words ml-auto"
-                      >
-                        {translations.liveDemo || "Demo"}
-                      </a>
-                    )}
-                  </div>
-                )}
-              </div>
-              {project.video && project.video.trim() !== "" && (
-                <div className="w-full lg:w-80 xl:w-96 flex-shrink-0 overflow-hidden rounded-md bg-black/40">
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full h-full object-cover"
-                    preload="metadata"
+                <div className="flex items-center gap-3.5 pt-3 border-t border-[var(--border-color)] flex-wrap">
+                  <a
+                    href={project.repository}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[var(--fg-muted)] hover:text-[var(--foreground)] font-semibold text-[13px]"
                   >
-                    <source src={project.video} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                    {translations.repository || "Repository"} &#8599;
+                  </a>
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[var(--foreground)] font-semibold text-[13px] ml-auto"
+                    >
+                      {translations.liveDemo || "Demo"} &#8599;
+                    </a>
+                  )}
                 </div>
-              )}
-            </div>
-          ))
-        ) : (
-          <p className="text-gray-400 text-center">No projects available.</p>
-        )}
+              </div>
+            ))}
       </div>
-    </section>
+    </div>
   );
 }

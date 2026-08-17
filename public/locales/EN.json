@@ -1,6 +1,23 @@
 {
-  "description_1": "I’m a Malmo-based software developer passionate about artificial intelligence, data processing, and self-hosted cloud infrastructure.",
+  "certificationsTitle": "Certificates",
+  "educationTitle": "Education",
+  "experienceTitle": "Experience",
+  "projectsTitle": "Proprietary Projects",
+  "projectsTitleOS": "Open-Source Projects",
+  "contactTitle": "Contact",
+  "skillsTitle": "Technical Skills",
+  "contact": "Contact",
+  "description_1": "I’m a Barcelona-based software developer passionate about artificial intelligence, data processing, and self-hosted cloud infrastructure.",
   "description_2": "I build scalable AI systems, vector-powered search tools, and full-stack applications that combine open-source technologies with real-world automation.",
+  "repository": "Repository",
+  "liveDemo": "Demo",
+  "watchDemo": "Watch demo",
+  "visitSite": "Visit site",
+  "typewriter": "Welcome, I'm Christian",
+  "navHome": "Home",
+  "navProjects": "Projects",
+  "navExperience": "Experience",
+  "navEducation": "Education",
   "certification": [
     {
       "title": "C# Developer Path",
@@ -58,6 +75,7 @@
       "title": "Technical, AI and Automation Advisor",
       "company": "CIBERIN FORESIGHT",
       "companyLogo": "../img/logo-cibering-cut.png",
+      "logoBg": "#111318",
       "contractType": "FP Dual",
       "periodTime": "aug. 2025 - feb. 2026",
       "location": "Barcelona",
@@ -140,19 +158,22 @@
           "title": "DeepPolitik",
           "description": "Full-stack RAG system enabling natural language search over Spanish parliamentary data, combining semantic retrieval (pgvector), keyword search, and LLM-based reranking to return relevant speeches, transcripts, and video timestamps. Implemented entity resolution, deduplication pipelines, and scalable data infrastructure with PostgreSQL, MongoDB, and FastAPI",
           "short_description": "AI powered search engine for Spanish parliamentary data.",
-          "link": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2zkIMDmeb4X41pNnsT68oR7zmLWE3xeFlj0icY"
+          "demoType": "video",
+          "videoUrl": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2zkIMDmeb4X41pNnsT68oR7zmLWE3xeFlj0icY"
         },
         {
           "title": "WordAlerts",
           "description": "AI pipeline for ingesting news and Telegram data, enriching it with NLP/LLMs, and clustering articles into real-world events using vector similarity and HDBSCAN. Designed multi-source ingestion, embedding pipelines, and event assignment systems, exposing results via FastAPI  and full-stack applications (Next.js/NestJS).",
           "short_description": "Automated event data-pipeline for real-time news and Telegram monitoring with AI enrichment.",
-          "link": "https://www.worldalerts.io/"
+          "demoType": "site",
+          "siteUrl": "https://www.worldalerts.io/"
         },
         {
           "title": "DeepAgents",
           "description": "Full-stack platform for creating and deploying customizable AI agents that can be embedded into external applications, enabling intelligent user interactions beyond traditional chat interfaces. The system allows businesses to configure assistants with their own data, define behavior and boundaries, and return structured responses with dynamic UI elements (e.g., forms, flows, actions) instead of plain text",
           "short_description": "AI agents for intelligent user interactions.",
-          "link": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2ziwxww2KsLupOIv91E6VQcYFhRdUDWlikej72"
+          "demoType": "video",
+          "videoUrl": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2ziwxww2KsLupOIv91E6VQcYFhRdUDWlikej72"
         }
       ],
       "open_source": [

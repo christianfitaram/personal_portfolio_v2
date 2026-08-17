@@ -1,32 +1,49 @@
 "use client";
 import { useLanguage } from "@/context/LanguageContext";
 import TypeWriter from "./TypeWriter";
+
 export default function Hero() {
   const { translations } = useLanguage();
   return (
-    <main className="flex flex-col gap-[32px] items-start">
-      <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-        <TypeWriter /> &nbsp;
-      </code>
+    <main className="flex flex-col gap-7 items-start w-full">
+      <div className="font-[family-name:var(--font-geist-mono)] text-[15px] font-medium text-[var(--fg-muted)] border border-[var(--border-color)] inline-flex items-center px-3.5 py-2 rounded-md w-fit">
+        &gt; <TypeWriter />
+        <span className="animate-[blink_1s_step-start_infinite]">_</span>
+      </div>
 
-      <div className="flex flex-col w-1/2">
-        <p className="tracking-[-.01em] text-left sm:text-left font-semibold">
+      <div className="flex flex-col gap-3.5 max-w-xl">
+        <p className="text-[19px] leading-[1.55] font-semibold">
           {translations.description_1 ||
-            "Web and mobile solutions using React, Next.js, Spring Boot, andKotlin."}
+            "Web and mobile solutions using React, Next.js, Spring Boot, and Kotlin."}
         </p>
-        <p className="tracking-[-.01em] text-left sm:text-left font-semibold">
+        <p className="text-[17px] leading-[1.6] text-[var(--fg-muted)]">
           {translations.description_2 ||
             "With a focus on data-driven technologies for efficient and scalable applications."}
         </p>
       </div>
-      <div className="flex gap-4  items-center flex-col sm:flex-row">
+
+      <div className="flex items-center gap-6 flex-wrap">
         <a
-          className="rounded-full border border-solid  transition-colors flex items-center justify-center  gap-2 hover:bg-[#383838] dark:hover:bg-[#888] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+          className="bg-[var(--accent)] text-[var(--accent-fg)] px-[22px] py-[11px] rounded-md font-semibold text-sm hover:opacity-85 transition-opacity"
           href="mailto:christianfitaram@gmail.com"
+        >
+          {translations.contact || "Contact"}
+        </a>
+        <a
+          className="text-[var(--fg-muted)] hover:text-[var(--foreground)] text-[15px] font-medium border-b border-transparent hover:border-[var(--foreground)] transition-colors"
+          href="https://github.com/christianfitaram/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          {translations.contact || "Contact"}
+          GitHub &#8599;
+        </a>
+        <a
+          className="text-[var(--fg-muted)] hover:text-[var(--foreground)] text-[15px] font-medium border-b border-transparent hover:border-[var(--foreground)] transition-colors"
+          href="https://www.linkedin.com/in/christian-fita-ramirez-98a0882a4/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn &#8599;
         </a>
       </div>
     </main>

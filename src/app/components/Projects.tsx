@@ -1,113 +1,114 @@
 "use client";
 import { useLanguage } from "@/context/LanguageContext";
 import { useEffect, useState } from "react";
-import { FaGithub } from "react-icons/fa";
 
 interface ProjectItem {
   title: string;
   description: string;
-  repository: string;
-  technologies: string[];
-  link?: string;
-  video?: string;
+  demoType?: "video" | "site";
+  videoUrl?: string;
+  siteUrl?: string;
 }
 
 export default function Projects() {
   const { translations } = useLanguage();
   const [projectData, setProjectData] = useState<ProjectItem[]>([]);
-  const [loading, setLoading] = useState(true); // Loading state
+  const [loading, setLoading] = useState(true);
+  const [modal, setModal] = useState<{ url: string; title: string } | null>(null);
 
   useEffect(() => {
-    setLoading(true); // Start loading
+    setLoading(true);
     if (translations.projects && translations.projects.length > 0) {
       setTimeout(() => {
         setProjectData(translations.projects[0].principal || []);
-        setLoading(false); // Stop loading once data is set
-      }); // Simulate loading delay
+        setLoading(false);
+      });
     }
   }, [translations]);
 
+  const closeModal = () => setModal(null);
+
   return (
-    <section id="projects" className="w-full mx-auto">
-      <div className="mb-4">
-        <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-          {translations.projectsTitle || "Propietary Projects"}
-        </code>
+    <div>
+      <div className="font-[family-name:var(--font-geist-mono)] text-[13px] font-medium text-[var(--fg-muted)] uppercase tracking-[0.06em] mb-5">
+        {translations.projectsTitle || "Proprietary Projects"}
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
-        {loading ? (
-          Array(3)
-            .fill(null)
-            .map((_, index) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {loading
+          ? Array(3)
+              .fill(null)
+              .map((_, index) => (
+                <div
+                  key={index}
+                  className="bg-[var(--card-projects-bg)] border border-[var(--border-color)] rounded-2xl p-6 animate-pulse h-56 flex flex-col justify-between"
+                >
+                  <div className="h-6 bg-[var(--bg-alt2)] rounded w-3/4"></div>
+                  <div className="h-4 bg-[var(--bg-alt2)] rounded w-5/6 mt-2"></div>
+                  <div className="h-4 bg-[var(--bg-alt2)] rounded w-4/6 mt-2"></div>
+                  <div className="h-6 bg-[var(--bg-alt2)] rounded w-full mt-auto"></div>
+                </div>
+              ))
+          : projectData.map((project, index) => (
               <div
                 key={index}
-                className="bg-gray-800 rounded-lg p-6 shadow-md animate-pulse h-56 flex flex-col justify-between"
+                className="bg-[var(--card-projects-bg)] border border-[var(--border-color)] rounded-2xl p-[26px] flex flex-col gap-3.5 hover:border-[var(--foreground)] transition-colors"
               >
-                <div className="h-6 bg-gray-700 rounded w-3/4"></div>
-                <div className="h-4 bg-gray-700 rounded w-5/6 mt-2"></div>
-                <div className="h-4 bg-gray-700 rounded w-4/6 mt-2"></div>
-                <div className="h-6 bg-gray-700 rounded w-full mt-auto"></div>
-              </div>
-            ))
-        ) : projectData.length > 0 ? (
-          projectData.map((project, index) => (
-            <div
-              key={index}
-              className="bg-[var(--card-projects-bg)] rounded-lg p-6 shadow-md hover:shadow-lg transition-all w-full max-w-full overflow-hidden flex flex-col gap-6 lg:flex-row lg:items-stretch h-full"
-            >
-              <div className="flex-1 flex flex-col min-w-0">
-                <h3 className="text-xl font-semibold">{project.title}</h3>
-                <p className="mt-2 mb-4  break-words leading-relaxed">
+                <h3 className="text-[19px] font-bold">{project.title}</h3>
+                <p className="text-[var(--fg-muted)] leading-[1.6] text-[15px] flex-1">
                   {project.description}
                 </p>
-
-                {(project.repository || project.link) && (
-                  <div className="mt-auto pt-4 border-t border-gray-600 flex items-center gap-3">
-                    {project.repository && (
-                      <a
-                        href={project.repository}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 hover:underline"
-                      >
-                        <FaGithub className="transition duration-300" />
-                        {translations.repository || "Repository"}
-                      </a>
-                    )}
-                    {project.link && (
-                      <a
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:underline break-words ml-auto"
-                      >
-                        {translations.liveDemo || "Demo"}
-                      </a>
-                    )}
-                  </div>
-                )}
-              </div>
-              {project.video && project.video.trim() !== "" && (
-                <div className="w-full lg:w-80 xl:w-96 flex-shrink-0 overflow-hidden rounded-md bg-black/40">
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full h-full object-cover"
-                    preload="metadata"
-                  >
-                    <source src={project.video} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                <div className="flex items-center gap-4 pt-3.5 border-t border-[var(--border-color)]">
+                  {project.demoType === "video" && project.videoUrl && (
+                    <button
+                      onClick={() =>
+                        setModal({ url: project.videoUrl!, title: project.title })
+                      }
+                      className="cursor-pointer bg-[var(--accent)] text-[var(--accent-fg)] border-none px-4 py-[9px] rounded-md font-semibold text-[13px]"
+                    >
+                      &#9658; {translations.watchDemo || "Watch demo"}
+                    </button>
+                  )}
+                  {project.demoType === "site" && project.siteUrl && (
+                    <a
+                      href={project.siteUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[var(--foreground)] font-semibold text-sm border-b border-[var(--border-color)] hover:border-[var(--foreground)]"
+                    >
+                      {translations.visitSite || "Visit site"} &#8599;
+                    </a>
+                  )}
                 </div>
-              )}
-            </div>
-          ))
-        ) : (
-          <p className="text-gray-400 text-center">No projects available.</p>
-        )}
+              </div>
+            ))}
       </div>
-    </section>
+
+      {modal && (
+        <div
+          onClick={(e) => {
+            if (e.target === e.currentTarget) closeModal();
+          }}
+          className="fixed inset-0 bg-black/[.82] backdrop-blur-[6px] flex items-center justify-center z-[1000] p-6"
+        >
+          <div className="w-full max-w-[880px] bg-black rounded-2xl overflow-hidden relative shadow-[0_30px_80px_rgba(0,0,0,0.5)]">
+            <button
+              onClick={closeModal}
+              className="absolute top-3 right-3 z-[2] cursor-pointer w-[34px] h-[34px] rounded-full border-none bg-white/[.15] text-white text-base leading-none"
+            >
+              &#10005;
+            </button>
+            <video
+              src={modal.url}
+              controls
+              autoPlay
+              className="w-full max-h-[75vh] block bg-black"
+            />
+            <div className="px-5 py-4 bg-[var(--card-projects-bg)]">
+              <p className="text-[15px] font-semibold">{modal.title}</p>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
   );
 }

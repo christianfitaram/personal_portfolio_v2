@@ -6,42 +6,41 @@ export default function Education() {
   const { translations } = useLanguage();
 
   return (
-    <div id="#projects" className="w-full mx-auto">
-      <div className="flex flex-col gap-4 w-full mx-auto lg:flex-row">
-        <div className="bg-[var(--card-education-bg)] py-10 px-5 md:px-20 w-full flex flex-row rounded">
-          <div className="flex flex-col flex-1">
-            <h2 className="text-3xl font-bold mb-6 ">
-              {translations.educationTitle || "Education"}
-            </h2>
-            <div className="space-y-6">
-              {translations.education?.map((edu: any, index: number) => (
-                <div
-                  key={index}
-                  className="bg-[var(--card-education-element-bg)] p-6 rounded-lg shadow-lg"
-                >
-                  <h3 className="text-xl font-semibold ">{edu.title}</h3>
-                  <p className="text-sm text-[var(--text-secondary)]">
-                    {edu.institution} · {edu.periodTime}
-                  </p>
-                  <p className="text-sm text-[var(--text-secondary)]">{edu.location}</p>
-                  <div className="mt-3 flex flex-wrap gap-2">
-                    {edu.technologies.map((tech: string, i: number) => (
-                      <span
-                        key={i}
-                        className="bg-gray-700 text-sm px-3 py-1 text-gray-100 rounded-full"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              ))}
+    <div className="w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+      <div>
+        <h2 className="text-[28px] font-extrabold mb-5">
+          {translations.educationTitle || "Education"}
+        </h2>
+        <div className="flex flex-col gap-4">
+          {translations.education?.map((edu: any, index: number) => (
+            <div
+              key={index}
+              className="bg-[var(--card-education-bg)] border border-[var(--border-color)] rounded-2xl p-[22px]"
+            >
+              <h3 className="text-base font-bold mb-1.5">{edu.title}</h3>
+              <p className="text-[13px] text-[var(--fg-muted)]">
+                {edu.institution} &middot; {edu.periodTime}
+              </p>
+              <p className="text-[13px] text-[var(--fg-muted)] mt-0.5">{edu.location}</p>
+              <div className="flex flex-wrap gap-2 mt-3">
+                {edu.technologies.map((tech: string, i: number) => (
+                  <span
+                    key={i}
+                    className="bg-[var(--bg-alt2)] text-[var(--fg-muted)] text-xs px-[11px] py-[5px] rounded-full font-[family-name:var(--font-geist-mono)]"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
+          ))}
         </div>
-        <div className="flex flex-col flex-1 bg-[var(--card-certification-bg)] items-center rounded py-10 px-5">
-          <Certifications />
-        </div>
+      </div>
+      <div>
+        <h2 className="text-[28px] font-extrabold mb-5">
+          {translations.certificationsTitle || "Certificates"}
+        </h2>
+        <Certifications />
       </div>
     </div>
   );
