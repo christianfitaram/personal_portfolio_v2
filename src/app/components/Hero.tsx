@@ -35,7 +35,7 @@ export default function Hero() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          GitHub &#8599;
+          GitHub
         </a>
         <a
           className="text-[var(--fg-muted)] hover:text-[var(--foreground)] text-[15px] font-medium border-b border-transparent hover:border-[var(--foreground)] transition-colors"
@@ -43,7 +43,7 @@ export default function Hero() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          LinkedIn &#8599;
+          LinkedIn
         </a>
       </div>
     </main>

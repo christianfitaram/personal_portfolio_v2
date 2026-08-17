@@ -60,7 +60,7 @@ export default function ProjectsOS() {
                     rel="noopener noreferrer"
                     className="text-[var(--fg-muted)] hover:text-[var(--foreground)] font-semibold text-[13px]"
                   >
-                    {translations.repository || "Repository"} &#8599;
+                    {translations.repository || "Repository"}
                   </a>
                   {project.link && (
                     <a
@@ -69,7 +69,7 @@ export default function ProjectsOS() {
                       rel="noopener noreferrer"
                       className="text-[var(--foreground)] font-semibold text-[13px] ml-auto"
                     >
-                      {translations.liveDemo || "Demo"} &#8599;
+                      {translations.liveDemo || "Demo"} 
                     </a>
                   )}
                 </div>

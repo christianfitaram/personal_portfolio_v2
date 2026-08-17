@@ -75,7 +75,7 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className="text-[var(--foreground)] font-semibold text-sm border-b border-[var(--border-color)] hover:border-[var(--foreground)]"
                     >
-                      {translations.visitSite || "Visit site"} &#8599;
+                      {translations.visitSite || "Visit site"}
                     </a>
                   )}
                 </div>
