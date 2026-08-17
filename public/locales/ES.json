@@ -46,6 +46,16 @@
   ],
   "education": [
     {
+      "title":"Grado en Ingeniería de Sistemas TIC",
+      "institution": "Universidad Politécnica de Cataluña",
+      "location":"Barcelona",
+      "periodTime": "Cursando actualmente",
+      "technologies":[
+        "embedded systems",
+        "Sistemas TIC"
+      ]
+    },
+    {
       "title": "Desarrollo de aplicaciones multiplataforma",
       "institution": "Institut Nicolau Copèrnic",
       "location": "Barcelona/Terrassa",

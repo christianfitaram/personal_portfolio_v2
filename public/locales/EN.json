@@ -46,6 +46,16 @@
   ],
   "education": [
     {
+      "title":"Bachelor's degree in ICT Systems Engineering",
+      "institution": "Universidad Politécnica de Cataluña",
+      "location":"Barcelona",
+      "periodTime": "Currently enrolled",
+      "technologies":[
+        "embedded systems",
+        "ICT systems"
+      ]
+    },
+    {
       "title": "Cross-platform application development",
       "institution": "Institut Nicolau Copèrnic",
       "location": "Barcelona/Terrassa",

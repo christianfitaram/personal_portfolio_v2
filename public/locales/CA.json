@@ -46,6 +46,16 @@
   ],
   "education": [
     {
+      "title": "Grau en Enginyeria de Sistemes TIC",
+      "institution": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona",
+      "periodTime": "en curs",
+      "technologies": [
+        "embedded systems",
+        "Sistemes TIC"
+      ]
+    },
+    {
       "title": "Desenvolupament d'Aplicacions Multiplataforma",
       "institution": "Institut Nicolau Copèrnic",
       "location": "Barcelona/Terrassa",
