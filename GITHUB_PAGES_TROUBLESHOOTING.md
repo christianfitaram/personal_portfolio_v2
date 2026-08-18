@@ -2,6 +2,13 @@
 
 This document summarizes the CI errors that happened when deploying to GitHub Pages and how they were fixed.
 
+> **Historical.** These issues applied to the GitHub Actions build
+> (`.github/workflows/nextjs.yml`), which has been removed. Deploys now run
+> locally via `npm run deploy`, which builds on your own machine and pushes the
+> static export to the `gh-pages` branch — so the Linux-runner native-binary
+> problems below no longer apply. Kept for reference in case Actions-based
+> deploys are ever restored.
+
 ## 1) Warning: `No build cache found`
 
 ### Message
@@ -83,7 +90,7 @@ After these changes:
 
 ## Files changed
 
-- `.github/workflows/nextjs.yml`
+- `.github/workflows/nextjs.yml` (since removed)
 - `package.json`
 - `package-lock.json`
 - `next.config.ts` (static export + Pages base path setup)
