@@ -1,0 +1,218 @@
+{
+  "certificationsTitle": "Certificats",
+  "educationTitle": "Educació",
+  "experienceTitle": "Experiència",
+  "projectsTitle": "Projectes Propietaris",
+  "projectsTitleOS": "Projectes Open-Source",
+  "contactTitle": "Contacte",
+  "skillsTitle": "Habilitats tècniques",
+  "contact": "Contacte",
+  "description_1": "Soc un desenvolupador de programari amb seu a Barcelona, apassionat per la intel·ligència artificial, el processament de dades i la infraestructura al núvol autogestionada.",
+  "description_2": "Creo sistemes d’IA escalables, motors de cerca basats en vectors i aplicacions full-stack que combinen tecnologies de codi obert amb automatització real.",
+  "repository": "Repositori",
+  "liveDemo": "Demo",
+  "watchDemo": "Veure demo",
+  "visitSite": "Visitar lloc",
+  "typewriter": "Hola, sóc Christian",
+  "navHome": "Inici",
+  "navProjects": "Projectes",
+  "navExperience": "Experiència",
+  "navEducation": "Educació",
+  "certification": [
+    {
+      "title": "MongoDB C# Developer Path",
+      "issuer": "MongoDB",
+      "date": "2024-06-11",
+      "id": "MDBs334b1eoxu",
+      "link": "https://learn.mongodb.com/c/ZNlzvcCPT4qUCbzxJzYkzA",
+      "img": "https://www.svgrepo.com/show/331488/mongodb.svg"
+    },
+    {
+      "title": "MongoDB Data Modeling Path",
+      "issuer": "MongoDB",
+      "date": "2024-06-11",
+      "id": "MDBy0i72vcmkp",
+      "link": "https://learn.mongodb.com/c/wwFMePmATf64iftNY1FoqA",
+      "img": "https://www.svgrepo.com/show/331488/mongodb.svg"
+    },
+    {
+      "title": "Azure Fundamentals",
+      "issuer": "Microsoft/Credly",
+      "date": "2024-07-11",
+      "id": "",
+      "link": "https://www.credly.com/badges/c14c74d9-eefe-4a79-93b9-118ccf813147/linked_in_profile",
+      "img": "https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+    }
+  ],
+  "education": [
+    {
+      "title": "Grau en Enginyeria de Sistemes TIC",
+      "institution": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona",
+      "periodTime": "en curs",
+      "technologies": [
+        "embedded systems",
+        "Sistemes TIC"
+      ]
+    },
+    {
+      "title": "Desenvolupament d'Aplicacions Multiplataforma",
+      "institution": "Institut Nicolau Copèrnic",
+      "location": "Barcelona/Terrassa",
+      "periodTime": "sep. 2023 - march. 2025 ",
+      "technologies": [
+        "Java",
+        "SpringBoot",
+        "Spring Security",
+        "PHP",
+        "Kotlin",
+        "Android Studio"
+      ]
+    },
+    {
+      "title": "Framework .NET i C#",
+      "location": "Barcelona",
+      "institution": "EnfocaT Bootcamp",
+      "periodTime": "may. 2024 - aug. 2024 ",
+      "technologies": [
+        "C#",
+        ".NET"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Assessor Tècnic, d'IA i Automatització",
+      "company": "CIBERIN FORESIGHT",
+      "companyLogo": "../img/logo-cibering-cut.png",
+      "logoBg": "#111318",
+      "contractType": "FP Dual",
+      "periodTime": "ago. 2025 - actual",
+      "location": "Barcelona",
+      "description": "Vaig assumir la responsabilitat completa de construir i llançar una plataforma d'IA d'extrem a extrem des de zero, dissenyant ràpidament pipelines de dades, agents d'IA i sistemes RAG per resoldre problemes del món real. Vaig configurar i desplegar infraestructura al núvol, integrar LLMs amb SQL i MongoDB a través d'APIs en producció, i lliurar aplicacions full-stack (frontend + backend) per donar suport a les operacions principals del negoci en un entorn dinàmic.",
+      "technologies": [
+        "React",
+        "NextJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "i18n",
+        "N8N",
+        "Google Cloud Platform",
+        "SQL",
+        "Ollama",
+        "llama 3.1",
+        "GPT-OSS",
+        "Vercel AI SDK",
+        "OpenAI SDK/API"
+      ]
+    },
+    {
+      "title": "Desenvolupador de software",
+      "company": "GINDUMAC",
+      "companyLogo": "../img/gindumac_logo.jpeg",
+      "contractType": "FP Dual",
+      "periodTime": "feb. 2025 - jul. 2025 ",
+      "location": "Barcelona",
+      "description": "Com a becari remunerat, vaig contribuir al desenvolupament full-stack amb un enfocament principal en frontend, construint funcionalitats orientades a l'usuari amb React, Next.js i TypeScript. Vaig desenvolupar fluxos de treball impulsats per IA, chatbots i sistemes de recomanació, col·laborant en integracions de backend (Python, GCP, AWS) en un entorn àgil.",
+      "technologies": [
+        "React",
+        "NextJS",
+        "TypeScript",
+        "Tailwind CSS",
+        "i18n",
+        "N8N",
+        "Google Cloud Platform",
+        "Vercel AI SDK",
+        "OpenAI SDK/API"
+      ]
+    },
+    {
+      "title": "Desenvolupador de software",
+      "company": "WITEKLAB",
+      "companyLogo": "../img/witeklab_logo.jpeg",
+      "contractType": "Internship (FCT)",
+      "periodTime": "oct. 2024 - jan. 2025",
+      "location": "Barcelona",
+      "description": "Vaig contribuir al desenvolupament d'una aplicació web per a la monitorització i gestió de dispositius IoT (repetidors i punts d'accés) en entorns industrials i de construcció. Em vaig centrar en funcionalitats de frontend, construint interfícies per visualitzar dades en temps real i permetre la configuració remota de dispositius.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PHP",
+        "Laravel",
+        "Angular"
+      ]
+    }
+  ],
+  "navbar": [
+    {
+      "text": "Home",
+      "link": "#home"
+    },
+    {
+      "text": "Skills",
+      "link": "#skills"
+    },
+    {
+      "text": "Education",
+      "link": "#education"
+    },
+    {
+      "text": "Projects",
+      "link": "#projects"
+    }
+  ],
+  "projects": [
+    {
+      "principal": [
+        {
+          "title": "DeepPolitik",
+          "description": "Sistema RAG full-stack que permet la cerca en llenguatge natural sobre dades parlamentàries espanyoles, combinant recuperació semàntica (pgvector), cerca per paraules clau i reordenament basat en LLM per retornar discursos, transcripcions i marques de temps de vídeo rellevants. Implementa resolució d'entitats, pipelines de deduplicació i infraestructura de dades escalable amb PostgreSQL, MongoDB i FastAPI.",
+          "short_description": "Motor de cerca amb IA per a dades parlamentàries espanyoles.",
+          "demoType": "video",
+          "videoUrl": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2zkIMDmeb4X41pNnsT68oR7zmLWE3xeFlj0icY"
+        },
+        {
+          "title": "WordAlerts",
+          "description": "Pipeline d'IA per ingerir notícies i dades de Telegram, enriquir-les amb NLP/LLMs i agrupar articles en esdeveniments del món real mitjançant similitud vectorial i HDBSCAN. Dissenya sistemes d'ingestió multifont, pipelines d'embeddings i assignació d'esdeveniments, exposant els resultats a través de FastAPI i aplicacions full-stack (Next.js/NestJS).",
+          "short_description": "Pipeline de dades d'esdeveniments automatitzat per al monitoratge en temps real de notícies i Telegram amb enriquiment d'IA.",
+          "demoType": "site",
+          "siteUrl": "https://www.worldalerts.io/"
+        },
+        {
+          "title": "DeepAgents",
+          "description": "Plataforma full-stack per crear i desplegar agents d'IA personalitzables que es poden integrar en aplicacions externes, permetent interaccions intel·ligents amb usuaris més enllà de les interfícies de xat tradicionals. El sistema permet a les empreses configurar assistents amb les seves pròpies dades, definir comportaments i límits, i retornar respostes estructurades amb elements d'interfície dinàmics (per exemple, formularis, fluxos, accions) en lloc de text pla.",
+          "short_description": "Agents d'IA per a interaccions intel·ligents amb usuaris.",
+          "demoType": "video",
+          "videoUrl": "https://j7ais3uu26.ufs.sh/f/0l5bioVN6Q2ziwxww2KsLupOIv91E6VQcYFhRdUDWlikej72"
+        }
+      ],
+      "open_source": [
+        {
+          "title": "Pipeline d'Ingestió de Notícies",
+          "description": "Pipeline impulsat per IA per extreure, netejar i enriquir articles de notícies amb NLP/LLMs.",
+          "short_description": "Pipeline impulsat per IA per extreure, netejar i enriquir articles de notícies amb NLP/LLMs.",
+          "repository": "https://github.com/christianfitaram/news-scraper-open"
+        },
+        {
+          "title": "Pipeline d'Ingestió de Telegram",
+          "description": "Transforma dades de canals de Telegram en registres estructurats i enriquits amb IA per a l'anàlisi en temps real.",
+          "short_description": "Transforma dades de canals de Telegram en registres estructurats i enriquits amb IA per a l'anàlisi en temps real.",
+          "repository": "https://github.com/christianfitaram/telegram-scraper-open"
+        },
+        {
+          "title": "API Semàntica (Cerca Vectorial)",
+          "description": "Servei FastAPI per a la recuperació basada en embeddings i la cerca de similitud vectorial (pgvector).",
+          "short_description": "Servei FastAPI per a la recuperació basada en embeddings i la cerca de similitud vectorial (pgvector).",
+          "repository": "https://github.com/christianfitaram/api-semantic"
+        },
+        {
+          "title": "The Pokemon App",
+          "description": "Aplicació full-stack centrada en el rendiment i la fiabilitat. Implementa seguretat a l’API, estratègies de memòria cau i serveis backend testejats",
+          "short_description": "The Pokemon App",
+          "repository": "https://github.com/christianfitaram/the-pokemon-app",
+          "link": "https://136.119.173.131.nip.io/"
+        }
+      ]
+    }
+  ]
+}
